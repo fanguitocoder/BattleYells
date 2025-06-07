@@ -1,0 +1,26 @@
+# WoW specific
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Lua cache and logs
+*.log
+*.toc~  # backup TOC files some editors make
+
+# Common dev/editor files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# OS-specific cruft
+__MACOSX/
+ehthumbs.db
+desktop.ini
+
+# Optional: zip packages if you export addons
+*.zip
