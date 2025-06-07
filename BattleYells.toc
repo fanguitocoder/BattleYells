@@ -1,0 +1,6 @@
+## Interface: 11400
+## Title: BattleYells
+## Notes: Slash-command-based battle yells for Classic
+## Author: You
+BattleYellsData.lua
+BattleYells.lua
