@@ -11,11 +11,12 @@ end
 
 SLASH_YELLSHORT1 = "/ym"
 SlashCmdList["YELLSHORT"] = function()
+  local zone = GetRealZoneText()
   local target = UnitName("target")
   local msg = getYell(target)
 
   if not msg then
-    print("BattleYells: No yell found for this target or zone.")
+    print("BattleYells: No yell found for this target or zone: ", zone)
     return
   end
 
