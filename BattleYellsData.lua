@@ -643,5 +643,97 @@ BattleYells = {
         "Icecrown itself trembles at our shout!",
         "From rampart to throne, victory is ours!"
       }
+    },
+    ["Stranglethorn Vale"] = {
+      ["Kurzen Jungle Fighter"] = {
+        "Kurzen will hear your screams!",
+        "I'll carve my path through your jungle!"
+      },
+      ["Bloodsail Raider"] = {
+        "Your pirate days are over!",
+        "Blood on the water for the Horde!"
+      },
+      ["Wild Panther"] = {
+        "I'll tame your fury, beast!",
+        "Panther, hear the roar that ends you!"
+      },
+      ["__event__"] = {
+        "Stranglethorn's canopy shakes with our roar!",
+        "The jungle drums beat for the Horde!"
+      }
+    },
+    ["Warsong Gulch"] = {
+      ["Silverwing Sentinel"] = {
+        "Sentinel, your flag won't save you!",
+        "Silverwing falls beneath my shout!"
+      },
+      ["Warsong Outrider"] = {
+        "For the Horde, ride them down!",
+        "Outrider, let our warcry guide you!"
+      },
+      ["Alliance Flag Carrier"] = {
+        "Your banner drops at my feet!",
+        "I'll tear that flag from your hands!"
+      },
+      ["Horde Flag Carrier"] = {
+        "Carry our glory to victory!",
+        "Horde flag held high, we conquer!"
+      },
+      ["__event__"] = {
+        "The gulch rings with battle fury!",
+        "Flags fall before the might of the Horde!"
+      }
+    },
+    ["Alterac Valley"] = {
+      ["Vanndar Stormpike"] = {
+        "Stormpike, your fortress crumbles!",
+        "I'll bring your banner to its knees!"
+      },
+      ["Stormpike Commander"] = {
+        "Commander, your troops falter!",
+        "Stormpike ranks break before us!"
+      },
+      ["Stormpike Lieutenant"] = {
+        "Lieutenant, prepare to meet defeat!",
+        "Your lines thin with every shout!"
+      },
+      ["Drek'Thar"] = {
+        "Frostwolf leads the charge!",
+        "For Drek'Thar and the Horde!"
+      },
+      ["Frostwolf Commander"] = {
+        "Commander, hold strong for the clan!",
+        "Frostwolf fangs tear through the enemy!"
+      },
+      ["Frostwolf Lieutenant"] = {
+        "Lieutenant, show them no mercy!",
+        "Horde blood runs hot in Alterac!"
+      },
+      ["__event__"] = {
+        "The valley quakes with clashing warcries!",
+        "Every rank shall know our fury!"
+      }
+    },
+    ["Arathi Basin"] = {
+      ["Defiler Grunt"] = {
+        "Grunt, seize the resource nodes!",
+        "Defilers claim this land in blood!"
+      },
+      ["Defiler Captain"] = {
+        "Captain, drive them from the basin!",
+        "Arathi belongs to the Horde!"
+      },
+      ["Arathor Guardsman"] = {
+        "Your guard breaks under our strength!",
+        "Arathor's hope ends here!"
+      },
+      ["Arathor Captain"] = {
+        "Captain, your forces falter!",
+        "The Basin slips from your grasp!"
+      },
+      ["__event__"] = {
+        "Banners rise and fall to our cries!",
+        "Arathi Basin echoes with Horde victory!"
+      }
     }
 }
