@@ -368,5 +368,280 @@ BattleYells = {
         "The Scarlet Crusade trembles at our approach!"
       }
     }
+    ["The Stockade"] = {
+      ["Bazil Thredd"] = {
+        "Thredd, your jailbreak ends now!",
+        "These walls echo with your defeat!"
+      },
+      ["__event__"] = {
+        "Stormwind's prisoners hear our fury!",
+        "The Stockade shakes with Horde rage!"
+      }
+    },
+    ["Shadowfang Keep"] = {
+      ["Baron Ashbury"] = {
+        "Ashbury, your curses break before me!",
+        "I bring daylight to your haunted halls!"
+      },
+      ["Lord Godfrey"] = {
+        "Your bullets cannot pierce my spirit!",
+        "Godfrey, the Horde ends your rebellion!"
+      },
+      ["__event__"] = {
+        "Shadowfang trembles at our howl!",
+        "Worgen and undead alike flee our cry!"
+      }
+    },
+    ["Blackfathom Deeps"] = {
+      ["Gelihast"] = {
+        "Your tides crash in vain!",
+        "Gelihast, the depths betray you!"
+      },
+      ["Twilight Lord Bathiel"] = {
+        "I shatter your dark rituals!",
+        "Bathiel, drown in defeat!"
+      },
+      ["__event__"] = {
+        "The Deeps echo with our battle roar!",
+        "Even the sea stirs at our command!"
+      }
+    },
+    ["Razorfen Kraul"] = {
+      ["Roogug"] = {
+        "Your oink is your last!",
+        "Roogug, tusks crack beneath my blade!"
+      },
+      ["Charlga Razorflank"] = {
+        "Charlga, your tribe falls today!",
+        "The Kraul belongs to the Horde!"
+      },
+      ["__event__"] = {
+        "Quilboar squeal before our might!",
+        "Razorfen trembles at our shout!"
+      }
+    },
+    ["Razorfen Downs"] = {
+      ["Tuten'kash"] = {
+        "I end your endless skitter!",
+        "Tuten'kash, crumble like ancient dust!"
+      },
+      ["Amnennar the Coldbringer"] = {
+        "Your frost can't chill my fury!",
+        "Amnennar, your reign ends in ashes!"
+      },
+      ["__event__"] = {
+        "The Downs ring with cries of victory!",
+        "Rise from your graves to face defeat!"
+      }
+    },
+    ["Gnomeregan"] = {
+      ["Grubbis"] = {
+        "Grubbis, your troggs scatter before me!",
+        "I'll scrap your machines and your hopes!"
+      },
+      ["Mekgineer Thermaplugg"] = {
+        "Thermaplugg, no gadget saves you now!",
+        "Your city will echo with Horde triumph!"
+      },
+      ["__event__"] = {
+        "Gnomeregan sparks with our rage!",
+        "The tunnels resound with victory!"
+      }
+    },
+    ["Uldaman"] = {
+      ["Revelosh"] = {
+        "Relics crumble before my shout!",
+        "Revelosh, I claim these treasures!"
+      },
+      ["Archaedas"] = {
+        "Stone lord, I shatter your legacy!",
+        "Archaedas, awaken only to fall!"
+      },
+      ["__event__"] = {
+        "Uldaman's echoes awaken to our warcry!",
+        "Ancient halls shake with new battle!"
+      }
+    },
+    ["Zul'Farrak"] = {
+      ["Chief Ukorz Sandscalp"] = {
+        "Ukorz, your tribe kneels today!",
+        "Sandscalp, feel the storm of the Horde!"
+      },
+      ["Nekrum & Sezz'ziz"] = {
+        "Twin threats fall doubly fast!",
+        "Nekrum, Sezz'ziz, taste the dust of defeat!"
+      },
+      ["__event__"] = {
+        "The desert hears our cry!",
+        "Zul'Farrak trembles beneath the Horde!"
+      }
+    },
+    ["Maraudon"] = {
+      ["Noxxion"] = {
+        "I purge your poison!",
+        "Noxxion, the earth rejects you!"
+      },
+      ["Princess Theradras"] = {
+        "Theradras, quake before my might!",
+        "Your earth magic falters, princess!"
+      },
+      ["__event__"] = {
+        "The caverns rumble with our arrival!",
+        "Maraudon bows to Horde strength!"
+      }
+    },
+    ["Temple of Atal'Hakkar"] = {
+      ["Avatar of Hakkar"] = {
+        "Serpents coil and fall!",
+        "Avatar, your ritual ends in ruin!"
+      },
+      ["Jammal'an the Prophet"] = {
+        "Your prophecies fail you!",
+        "Jammal'an, witness the truth of defeat!"
+      },
+      ["__event__"] = {
+        "The temple crumbles under our shout!",
+        "Atal'Hakkar hears the roar of the Horde!"
+      }
+    },
+    ["Dire Maul"] = {
+      ["Prince Tortheldrin"] = {
+        "Your court is dismissed!",
+        "Tortheldrin, bow to the real power!"
+      },
+      ["King Gordok"] = {
+        "Gordok, feel the smash of the Horde!",
+        "Your ogres serve our victory today!"
+      },
+      ["__event__"] = {
+        "Dire Maul's ruins echo with glory!",
+        "Ogres tremble before our might!"
+      }
+    },
+    ["Lower Blackrock Spire"] = {
+      ["Warchief Rend Blackhand"] = {
+        "Rend, your false Horde falls!",
+        "The Blackrock clan shatters today!"
+      },
+      ["Overlord Wyrmthalak"] = {
+        "Your dragons serve the true Horde or perish!",
+        "Wyrmthalak, my roar outmatches yours!"
+      },
+      ["__event__"] = {
+        "Lower Spire shakes with our footsteps!",
+        "Blackrock bends to the Horde!"
+      }
+    },
+    ["Upper Blackrock Spire"] = {
+      ["General Drakkisath"] = {
+        "Your reign ends, Drakkisath!",
+        "I'll break your command over these halls!"
+      },
+      ["Pyroguard Emberseer"] = {
+        "Emberseer, your flames flicker out!",
+        "Feel the heat of your own defeat!"
+      },
+      ["__event__"] = {
+        "Upper Spire blazes with our victory!",
+        "None withstand the Horde's ascent!"
+      }
+    },
+    ["Ruins of Ahn'Qiraj"] = {
+      ["Ossirian the Unscarred"] = {
+        "Your invincibility ends now!",
+        "Ossirian, scars of defeat await you!"
+      },
+      ["Moam"] = {
+        "Moam, your mana drains to nothing!",
+        "Stone and sand crumble beneath me!"
+      },
+      ["__event__"] = {
+        "The sands of Ahn'Qiraj shift with our roar!",
+        "Ruins awaken to Horde conquest!"
+      }
+    },
+    ["Temple of Ahn'Qiraj"] = {
+      ["The Prophet Skeram"] = {
+        "Your visions fail you!",
+        "Skeram, the Horde shatters your illusions!"
+      },
+      ["C'Thun"] = {
+        "C'Thun, your eye closes forever!",
+        "From the void I shout your demise!"
+      },
+      ["__event__"] = {
+        "The Old God trembles at our battle cry!",
+        "Ahn'Qiraj echoes with the fall of darkness!"
+      }
+    },
+    ["Naxxramas"] = {
+      ["Instructor Razuvious"] = {
+        "Your lessons end in failure!",
+        "Razuvious, class dismissed!"
+      },
+      ["Kel'Thuzad"] = {
+        "Kel'Thuzad, your lichdom ends here!",
+        "The Scourge shatters before the Horde!"
+      },
+      ["__event__"] = {
+        "Naxxramas quivers at our presence!",
+        "Even undead bow to the Horde's fury!"
+      }
+    },
+    ["Hellfire Ramparts"] = {
+      ["Vazruden the Herald"] = {
+        "Your Legion can't stop me!",
+        "Vazruden, I break your gate!"
+      },
+      ["Nazran"] = {
+        "Nazran, feel the fury of Outland's conquerors!",
+        "Your roars fade before our might!"
+      },
+      ["__event__"] = {
+        "The Ramparts fall to the Horde!",
+        "Hellfire itself quakes at our yell!"
+      }
+    },
+    ["Karazhan"] = {
+      ["Attumen the Huntsman"] = {
+        "Your steed runs from my fury!",
+        "Attumen, the hunt ends with you!"
+      },
+      ["Prince Malchezaar"] = {
+        "All realities? I conquer this one first!",
+        "Malchezaar, your demons cower before me!"
+      },
+      ["__event__"] = {
+        "The tower echoes with our triumph!",
+        "Karazhan's spirits heed our warcry!"
+      }
+    },
+    ["Utgarde Keep"] = {
+      ["Prince Keleseth"] = {
+        "Keleseth, feel true royal pain!",
+        "I'll shatter your vrykul ambitions!"
+      },
+      ["Ingvar the Plunderer"] = {
+        "Ingvar, the Horde plunders you!",
+        "Your longboat won't sail you from defeat!"
+      },
+      ["__event__"] = {
+        "Utgarde shakes with our victory!",
+        "Vrykul hear the roar of the Horde!"
+      }
+    },
+    ["Icecrown Citadel"] = {
+      ["Lord Marrowgar"] = {
+        "Marrowgar, I scatter your bones!",
+        "Your citadel is my battleground!"
+      },
+      ["The Lich King"] = {
+        "Arthas, your reign of terror ends now!",
+        "The Horde brings you final death!"
+      },
+      ["__event__"] = {
+        "Icecrown itself trembles at our shout!",
+        "From rampart to throne, victory is ours!"
+      }
+    }
 }
-
