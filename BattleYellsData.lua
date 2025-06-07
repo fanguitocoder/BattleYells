@@ -367,7 +367,7 @@ BattleYells = {
       ["__event__"] = {
         "The Scarlet Crusade trembles at our approach!"
       }
-    }
+    },
     ["The Stockade"] = {
       ["Bazil Thredd"] = {
         "Thredd, your jailbreak ends now!",
