@@ -22,6 +22,4 @@ __MACOSX/
 ehthumbs.db
 desktop.ini
 
-# Optional: zip packages if you export addons
-*.zip
 
