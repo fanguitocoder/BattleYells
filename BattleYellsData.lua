@@ -1,739 +1,737 @@
 BattleYells = {
+    ["Tirisfal Glades"] = {
+        ["Scarlet Convert"] = {"Your faith won't shield you from undeath!", "Scarlet fool, the dead do not forget!"},
+        ["Wretched Ghoul"] = {"Back to the grave, rotting husk!", "Your stench offends even the Scourge!"},
+        ["Duskbat"] = {"Bat or beast, I hunt all the same!", "Dark wings break under my might!"},
+        ["Rotting Dead"] = {"Rotting? I’ll make you fresh meat!", "Your flesh is ripe for the taking!"},
+        ["Tirisfal Bat"] = {"Bat, I am the hunter, not the hunted!", "Your wings are clipped by my blade!"},
+        ["Tirisfal Scavenger"] = {"Scavenger, I’ll take your life as easily as you take scraps!",
+                                  "You scavenge no more — I am the predator!"},
+        ["Tirisfal Farmer"] = {"Farmer, your plow is no match for my axe!", "I’ll harvest your defeat!"},
+        ["Tirisfal Farmer's Dog"] = {"Dog, I’ll put you down like a rabid beast!",
+                                     "Your bark is silenced by my blade!"},
+        ["Tirisfal Ghost"] = {"Ghost, your wails are no match for my warcry!", "I send you back to the shadows!"},
+        ["Tirisfal Spirit"] = {"Spirit, I banish you with my shout!", "Your hauntings end here!"},
+        ["Tirisfal Skeleton"] = {"Skeleton, your bones rattle in fear!", "I’ll crush you to dust!"},
+        ["Tirisfal Zombie"] = {"Zombie, I’ll put you back in the ground!", "Your flesh rots before my might!"},
+        ["Tirisfal Ghoul"] = {"Ghoul, I’ll feast on your remains!", "Your hunger is no match for my fury!"},
+        ["Tirisfal Abomination"] = {"Abomination, I’ll tear you limb from limb!",
+                                    "Your stitches unravel before my might!"},
+        ["Tirisfal Plaguehound"] = {"Plaguehound, your bite is no match for my blade!",
+                                    "I’ll cure you of your infection!"},
+        ["Tirisfal Darkhound"] = {"Darkhound, I’ll hunt you down like a beast!", "Your howl is silenced by my blade!"},
+        ["Tirisfal Shadowcaster"] = {"Shadowcaster, your magic is no match for my might!",
+                                     "I’ll break your spells and your spirit!"},
+        ["Tirisfal Deathguard"] = {"Deathguard, your watch ends in defeat!", "I’ll break your shield and your spirit!"},
+        ["Tirisfal Plaguebringer"] = {"Plaguebringer, I’ll cleanse you with my fury!",
+                                      "Your disease meets its end here!"},
+        ["Tirisfal Plaguebearer"] = {"Plaguebearer, I’ll bury you in the dirt!",
+                                     "Your infection is no match for my strength!"},
+        ["Tirisfal Plaguewalker"] = {"Plaguewalker, I’ll trample you underfoot!", "Your steps falter before my might!"},
+        ["Tirisfal Plaguehound Alpha"] = {"Alpha, your pack scatters before me!", "I am the true hunter of Tirisfal!"},
+        ["Tirisfal Plaguehound Matriarch"] = {"Matriarch, your brood falls to my blade!",
+                                              "I’ll end your reign with a single strike!"},
+        ["__event__"] = {"Tirisfal moans with the echoes of battle!", "The dead rise — and so do we!"}
+    },
+
+    ["Silverpine Forest"] = {
+        ["Worgen Warrior"] = {"Worgen, your bite is worse than your bark!", "I’ll skin you and wear your fur!"},
+        ["Rotting Ghoul"] = {"Rotting? I’ll make you fresh meat!", "Your flesh is ripe for the taking!"},
+        ["Shadowfang Worg"] = {"Worg, I’ll hunt you down like a beast!", "Your howl is silenced by my blade!"},
+        ["Silverpine Sentinel"] = {"Sentinel, your watch ends in defeat!", "I’ll break your shield and your spirit!"},
+        ["Silverpine Forest Wolf"] = {"Wolf, I am the hunter, not the hunted!", "Your pack scatters before my might!"},
+        ["Silverpine Forest Bear"] = {"Bear, I’ll crush you like a twig!", "Your roar is no match for my warcry!"},
+        ["__event__"] = {"Silverpine echoes with the clash of steel and howl of war!",
+                         "The forest trembles under our battle cry!"}
+    },
+
+    ["Elwynn Forest"] = {
+        ["Defias Bandit"] = {"Your rebellion ends in Elwynn’s dirt!", "Defias, prepare to be defied!"},
+        ["Defias Cutpurse"] = {"Cutpurse, your thievery meets its end!", "I reclaim what you've stolen with steel!"},
+        ["Defias Ringleader"] = {"Ringleader, your circle breaks here!", "Your schemes unravel before my might!"},
+        ["Kobold Miner"] = {"You no take candle — I take your life!", "Kobold, this mine is your tomb!"},
+        ["Kobold Tunneler"] = {"Tunneler, your digging days are over!", "I collapse your tunnels with fury!"},
+        ["Kobold Geomancer"] = {"Geomancer, your earth magic crumbles!", "Your stones shatter beneath my feet!"},
+        ["Riverpaw Outrunner"] = {"Outrunner, you can't outrun your fate!", "Gnoll, your pack falls before me!"},
+        ["Riverpaw Runt"] = {"Runt, I crush your ambitions!", "Your yelps echo in defeat!"},
+        ["Murloc Forager"] = {"Forager, I feast on your defeat!", "Your gurgles signal your end!"},
+        ["Murloc Lurker"] = {"Lurker, I drag you from the depths!", "Your ambush fails against my vigilance!"},
+        ["Prowler"] = {"Prowler, your stealth is shattered!", "I hunt the hunter!"},
+        ["Young Forest Bear"] = {"Cub or not, you face my wrath!", "Your growl meets my roar!"},
+        ["Stonetusk Boar"] = {"Boar, your tusks break on my blade!", "I roast your defiance!"},
+        ["Rockhide Boar"] = {"Rockhide, your hide isn't tough enough!", "I pierce your defenses with ease!"},
+        ["Goldtooth"] = {"Goldtooth, your greed is your downfall!", "I claim your hoard and your life!"},
+        ["Hogger"] = {"Hogger, your reign of terror ends now!", "I bring justice to your chaos!"},
+        ["Mother Fang"] = {"Mother Fang, I squash your brood!", "Your venom holds no sway over me!"},
+        ["Thuros Lightfingers"] = {"Lightfingers, your touch is your curse!", "I sever your grasp with steel!"},
+        ["Fedfennel"] = {"Fedfennel, your hunger is insatiable!", "I satiate your appetite with defeat!"},
+        ["Gruff Swiftbite"] = {"Swiftbite, your speed can't save you!", "I outpace and outmatch you!"},
+        ["Gug Fatcandle"] = {"Fatcandle, your light dims forever!", "I extinguish your flame!"},
+        ["Surena Caledon"] = {"Surena, your dark arts fail you!", "I dispel your shadows with light!"},
+        ["Morgan the Collector"] = {"Collector, I collect your defeat!", "Your hoard becomes my prize!"},
+        ["James Clark"] = {"Clark, your betrayal ends here!", "I expose your treachery!"},
+        ["Narg the Taskmaster"] = {"Taskmaster, your tasks are over!", "I liberate your minions with force!"},
+        ["Morgaine the Sly"] = {"Morgaine, your slyness is your weakness!", "I outwit and outfight you!"},
+        ["Dead-Tooth Jack"] = {"Dead-Tooth, I knock out your last!", "Your bite is worse than your bark!"},
+        ["Ruklar the Trapper"] = {"Trapper, I spring your own trap!", "I ensnare the ensnarer!"},
+        ["Longsnout"] = {"Longsnout, your sniffing ends now!", "I silence your snout!"},
+        ["Lamepaw the Whimperer"] = {"Lamepaw, your whimpers fall on deaf ears!", "I end your misery!"},
+        ["__event__"] = {"Elwynn's woods echo with our battle cries!",
+                         "From Goldshire to the hills — battle is joined!", "The forest trembles under our might!",
+                         "No foe escapes our wrath in Elwynn!"}
+    },
+
+    ["Dun Morogh"] = {
+        ["Frostmane Troll Whelp"] = {"Whelp, you picked the wrong snowbank!", "I warm myself with your defeat!"},
+        ["Rockjaw Trogg"] = {"Troggs tumble before me like pebbles!", "Your bones will heat Ironforge’s forge fires!"},
+        ["Winter Wolf"] = {"The cold bites, but I bite back harder!", "Wolf, I am your final winter!"},
+        ["Frostmane Troll"] = {"Troll, your frost melts before my fire!", "I’ll freeze your screams in the snow!"},
+        ["Frostmane Seer"] = {"Seer, your visions end in darkness!", "I’ll shatter your staff and your spirit!"},
+        ["Frostmane Shadowcaster"] = {"Shadowcaster, I banish you to the void!", "Your magic is no match for my might!"},
+        ["Frostmane Headhunter"] = {"Headhunter, I’ll take yours first!", "Your hunt ends with my blade!"},
+        ["Frostmane Berserker"] = {"Berserker, your rage is nothing before my fury!", "I’ll break you like a twig!"},
+        ["Frostmane Troll Priest"] = {"Priest, your prayers go unanswered!", "I’ll silence your chants with steel!"},
+        ["Frostmane Troll Hunter"] = {"Hunter, I am the true predator here!", "Your arrows fall short of my might!"},
+        ["__event__"] = {"Snow and blood mingle under my boots!", "Dun Morogh rings with the songs of war!"}
+    },
+
+    ["Teldrassil"] = {
+        ["Gnarlpine Ursa"] = {"Your claws won’t pierce my resolve!", "Ursa, your growl ends in silence!"},
+        ["Webwood Lurker"] = {"No shadows can hide you, spider!", "I cut through silk and shadow alike!"},
+        ["Nightsaber"] = {"Cat of the night, meet fury by day!", "Even your elegance won't save you!"},
+        ["__event__"] = {"The great boughs echo with cries of conquest!", "Teldrassil, bear witness to our might!"}
+    },
+
+    ["Azuremyst Isle"] = {
+        ["Wrathscale Naga"] = {"Wrathscale, I break your tide!", "Naga, your coils twist in vain!"},
+        ["Root Trapper"] = {"You trap none but yourself!", "Roots shatter under my charge!"},
+        ["Myst Spinner"] = {"Your mists fade in the face of fury!", "Spinner, your webs are no match for war!"},
+        ["__event__"] = {"Azuremyst trembles beneath our step!",
+                         "The crash of the Exodar is nothing next to this shout!"}
+    },
+
+    ["Eversong Woods"] = {
+        ["Wretched Urchin"] = {"Your hunger meets my wrath!", "Urchin, I feed you steel!"},
+        ["Mana Wyrm"] = {"Wyrm, your magic flickers and dies!", "I tear through arcane mist like wind!"},
+        ["Springpaw Lynx"] = {"Spring no more, Lynx!", "Your pounce meets my roar!"},
+        ["__event__"] = {"The woods shimmer with the cry of conquest!", "Blood elf pride cracks under pressure!"}
+    },
+
+    ["Mulgore"] = {
+        ["Bristleback Quilboar"] = {"Bristleback, your tribe falls in the grass!",
+                                    "Quilboar, your tusks will rust in the sun!"},
+        ["Bristleback Shaman"] = {"Your totems crumble beneath my rage!", "Shaman, your spirits have abandoned you!"},
+        ["Palemane Tanner"] = {"Tanner, I flay your courage!", "Your hide joins my banner!"},
+        ["Palemane Poacher"] = {"Poacher, prey becomes predator!", "I protect these plains with blood!"},
+        ["Palemane Skinner"] = {"Skinner, I turn your tools against you!", "This land flays your kind!"},
+        ["Prairie Wolf"] = {"Wolf, your howl is your last!", "I run faster than your fear!"},
+        ["Flatland Cougar"] = {"Cougar, your claws dull on my steel!", "Fangs won't save you now!"},
+        ["Swoop"] = {"Swoop, I clip your wings!", "Your screech meets silence!"},
+        ["Mazzranache"] = {"Mazzranache, your end echoes across the plains!", "Even the rarest beast bows before me!"},
+        ["The Rake"] = {"Rake, I strike first!", "Your prowl ends in pain!"},
+        ["Arra'chea"] = {"Arra'chea, I chase your legend into the dust!", "The great kodo falls today!"},
+        ["Supervisor Fizsprocket"] = {"Gnome meddler, your machines die with you!",
+                                      "Fizsprocket, this land is not for sale!"},
+        ["__event__"] = {"Mulgore's sky rings with our cry!",
+                         "From the rolling hills to the sacred mesa — victory rides with the wind!",
+                         "Thunder Bluff hears our war drums!", "These plains are ours — from hoof to horizon!"}
+    },
+
     ["Durotar"] = {
-      ["Kul Tiras Marine"] = {
-        "Go home, tin can! Durotar’s not for rent!",
-        "You brought steel? I brought rage!",
-        "Your fleet can’t save you from my warcry!"
-      },
-      ["Razormane Quilboar"] = {
-        "You squeal, I strike. Razor Hill is ours!",
-        "Back to your mud-holes, pigs!",
-        "Your quills shiver before Horde fury!"
-      },
-      ["Razormane Scout"] = {
-        "Scouting won’t save you now!",
-        "I see your fear before you see me!"
-      },
-      ["Razormane Dustrunner"] = {
-        "Dust to dust, pigskin.",
-        "Run all you want — I run you through!"
-      },
-      ["Razormane Battleguard"] = {
-        "You guard nothing but your grave!",
-        "My axe is the key to your defeat!"
-      },
-      ["__event__"] = {
-        "The winds of Durotar howl — and I answer with fury!",
-        "Durotar rises with my voice!"
-      }
+        ["Scorpid Worker"] = {"Scorpid, I snap your sting!", "Worker, your toil ends here!"},
+        ["Venomtail Scorpid"] = {"Venomtail, your poison is weak!", "I crush your carapace beneath my boots!"},
+        ["Dustwind Harpy"] = {"Harpy, your screech meets silence!", "I clip your filthy wings!"},
+        ["Dustwind Savage"] = {"Savage? I’ll show you savage!", "I outmatch your fury with steel!"},
+        ["Kul Tiras Sailor"] = {"You sail into your doom!", "Kul Tiras will remember your defeat!"},
+        ["Kul Tiras Marine"] = {"Marine, your shield is nothing!", "Your uniform will burn in the red sands!"},
+        ["Razormane Quilboar"] = {"Quilboar, your tusks will line our trophies!", "Your tribe falls like dry thorns!"},
+        ["Razormane Scout"] = {"Scout this — your end is here!", "You see me now? Too late!"},
+        ["Razormane Dustrunner"] = {"Run while you can, pig!", "I leave only dust and blood!"},
+        ["Razormane Battleguard"] = {"Battleguard? You guard only your grave!",
+                                     "Your strength crumbles before the Horde!"},
+        ["Felstalker"] = {"Demon, be banished from our lands!", "Felstalker, I send you back to the void!"},
+        ["Burning Blade Cultist"] = {"Your blade burns out today!", "Cultist, your whispers fall on deaf ears!"},
+        ["Zalazane"] = {"Zalazane, your sorcery dies with you!", "No more hexes, no more lies!"},
+        ["Minshina's Skull"] = {"Rest, spirit. I shall free your bones!", "Minshina, I honor you with victory!"},
+        ["Gazz'uz"] = {"Gazz'uz, your demon tricks end now!", "I shatter your pact with shadow!"},
+        ["Lieutenant Benedict"] = {"Benedict, your plans sink with your ship!", "You’ll never leave Echo Isles alive!"},
+        ["Sergeant Curtis"] = {"Curtis, your orders end in failure!", "No ranks save you now!"},
+        ["__event__"] = {"The red earth of Durotar drinks victory!",
+                         "From jagged cliffs to sea — Durotar stands proud!",
+                         "Let the winds of Durotar carry our roar!", "No invader treads these lands unchallenged!"}
     },
     ["Ragefire Chasm"] = {
-      ["Taragaman the Hungerer"] = {
-        "Your hunger ends here!",
-        "I’ll feed you a meal of molten defeat, Taragaman!"
-      },
-      ["Bazzalan"] = {
-        "I'll cut you down!",
-        "Shadow or not, my blade finds you!"
-      },
-      ["Jergosh the Invoker"] = {
-        "Your dark arts fail you!",
-        "Begone, Invoker — my rage is stronger than your flames!"
-      },
-      ["Oggleflint"] = {
-        "Rocks crumble before the Horde!",
-        "Stone or skull, it all breaks!"
-      },
-      ["__event__"] = {
-        "The flames of Ragefire answer our shout!",
-        "This cavern echoes with Horde fury!"
-      }
+        ["Taragaman the Hungerer"] = {"Your hunger ends here!", "I’ll feed you a meal of molten defeat, Taragaman!"},
+        ["Bazzalan"] = {"I'll cut you down!", "Shadow or not, my blade finds you!"},
+        ["Jergosh the Invoker"] = {"Your dark arts fail you!",
+                                   "Begone, Invoker — my rage is stronger than your flames!"},
+        ["Oggleflint"] = {"Rocks crumble before the Horde!", "Stone or skull, it all breaks!"},
+        ["__event__"] = {"The flames of Ragefire answer our shout!", "This cavern echoes with Horde fury!"}
     },
     ["Wailing Caverns"] = {
-      ["Lady Anacondra"] = {
-        "Fangs won't stop me!",
-        "Serpents coil, but I strike true!"
-      },
-      ["Lord Cobrahn"] = {
-        "I'll crush your serpentine schemes!",
-        "Cobrahn, your venom is weak against my rage!"
-      },
-      ["Lord Pythas"] = {
-        "Feel the strike of the Horde!",
-        "Your coils can’t contain my fury!"
-      },
-      ["Kresh"] = {
-        "I'll shatter that shell!",
-        "Your carapace cracks before my blow!"
-      },
-      ["Skum"] = {
-        "Thunder lizards fall the hardest!",
-        "Your roar is nothing next to mine!"
-      },
-      ["Lord Serpentis"] = {
-        "Your dreams die today!",
-        "Wake up to defeat, Serpentis!"
-      },
-      ["Verdan the Everliving"] = {
-        "I'll prune this overgrown weed!",
-        "Verdan, I bring the axe to your forest!"
-      },
-      ["Mutanus the Devourer"] = {
-        "Time to spit you out!",
-        "Mutanus, your maw meets my blade!"
-      },
-      ["__event__"] = {
-        "The cavern itself trembles at our warcry!",
-        "From within the depths we shout our triumph!"
-      }
+        ["Lady Anacondra"] = {"Fangs won't stop me!", "Serpents coil, but I strike true!"},
+        ["Lord Cobrahn"] = {"I'll crush your serpentine schemes!", "Cobrahn, your venom is weak against my rage!"},
+        ["Lord Pythas"] = {"Feel the strike of the Horde!", "Your coils can’t contain my fury!"},
+        ["Kresh"] = {"I'll shatter that shell!", "Your carapace cracks before my blow!"},
+        ["Skum"] = {"Thunder lizards fall the hardest!", "Your roar is nothing next to mine!"},
+        ["Lord Serpentis"] = {"Your dreams die today!", "Wake up to defeat, Serpentis!"},
+        ["Verdan the Everliving"] = {"I'll prune this overgrown weed!", "Verdan, I bring the axe to your forest!"},
+        ["Mutanus the Devourer"] = {"Time to spit you out!", "Mutanus, your maw meets my blade!"},
+        ["__event__"] = {"The cavern itself trembles at our warcry!", "From within the depths we shout our triumph!"}
     },
     ["The Deadmines"] = {
-      ["Rhahk'Zor"] = {
-        "Your mine is our battlefield!",
-        "I'll cave in your plans, Rhahk'Zor!"
-      },
-      ["Sneed's Shredder"] = {
-        "I'll smash that toy to bits!",
-        "Your machine can't stop this axe!"
-      },
-      ["Sneed"] = {
-        "Nowhere to hide, goblin!",
-        "Sneed, your crew crumbles today!"
-      },
-      ["Gilnid"] = {
-        "Forge this!",
-        "Your molten works are scrap before me!"
-      },
-      ["Mr. Smite"] = {
-        "You're not prepared for this!",
-        "Smite, I'll knock sense into you!"
-      },
-      ["Captain Greenskin"] = {
-        "I'll send you overboard!",
-        "Your deck runs red today, Captain!"
-      },
-      ["Edwin VanCleef"] = {
-        "For the Horde!",
-        "VanCleef, your rebellion ends with my shout!"
-      },
-      ["Cookie"] = {
-        "I'll season you with defeat!",
-        "Even your soup can't swallow my fury!"
-      },
-      ["__event__"] = {
-        "The Defias will hear our fury!",
-        "Deadmines echo with Horde victory!"
-      }
+        ["Rhahk'Zor"] = {"Your mine is our battlefield!", "I'll cave in your plans, Rhahk'Zor!"},
+        ["Sneed's Shredder"] = {"I'll smash that toy to bits!", "Your machine can't stop this axe!"},
+        ["Sneed"] = {"Nowhere to hide, goblin!", "Sneed, your crew crumbles today!"},
+        ["Gilnid"] = {"Forge this!", "Your molten works are scrap before me!"},
+        ["Mr. Smite"] = {"You're not prepared for this!", "Smite, I'll knock sense into you!"},
+        ["Captain Greenskin"] = {"I'll send you overboard!", "Your deck runs red today, Captain!"},
+        ["Edwin VanCleef"] = {"For the Horde!", "VanCleef, your rebellion ends with my shout!"},
+        ["Cookie"] = {"I'll season you with defeat!", "Even your soup can't swallow my fury!"},
+        ["__event__"] = {"The Defias will hear our fury!", "Deadmines echo with Horde victory!"}
     },
     ["Onyxia's Lair"] = {
-      ["Onyxia"] = {
-        "Your reign ends in fire!",
-        "Onyxia, feel the wrath of the Horde's champion!"
-      },
-      ["__event__"] = {
-        "Dragons fear our battle cry!",
-        "The broodmother shall hear our roar!"
-      }
+        ["Onyxia"] = {"Your reign ends in fire!", "Onyxia, feel the wrath of the Horde's champion!"},
+        ["__event__"] = {"Dragons fear our battle cry!", "The broodmother shall hear our roar!"}
     },
     ["Molten Core"] = {
-      ["Lucifron"] = {
-        "Your corruption burns away!",
-        "Lucifron, feel the cleansing fire of my rage!"
-      },
-      ["Magmadar"] = {
-        "Down, beast!",
-        "Your jaws snap on empty air, Magmadar!"
-      },
-      ["Gehennas"] = {
-        "I'll douse your flames!",
-        "Gehennas, taste defeat in the lava you love!"
-      },
-      ["Garr"] = {
-        "I'll shatter your binds!",
-        "Garr, your elementals crumble before me!"
-      },
-      ["Baron Geddon"] = {
-        "Explode somewhere else!",
-        "Baron, I turn your blasts against you!"
-      },
-      ["Shazzrah"] = {
-        "Arcane trickery won't save you!",
-        "Shazzrah, your spells scatter like ash!"
-      },
-      ["Sulfuron Harbinger"] = {
-        "Your dark preaching ends!",
-        "Sulfuron, the Horde silences your sermon!"
-      },
-      ["Golemagg the Incinerator"] = {
-        "Ashes to ashes!",
-        "Your giants burn in my rage, Golemagg!"
-      },
-      ["Majordomo Executus"] = {
-        "Kneel before the true might!",
-        "Executus, you'll serve only defeat!"
-      },
-      ["Ragnaros"] = {
-        "By my shout shall you fall, Firelord!",
-        "Ragnaros, your flames gutter before my warcry!"
-      },
-      ["__event__"] = {
-        "The very core trembles with our yell!",
-        "Molten Core will remember this roar!"
-      }
+        ["Lucifron"] = {"Lucifron, your corruption burns in the fires you serve!",
+                        "I cleanse your soul with war and wrath!"},
+        ["Magmadar"] = {"Magmadar, beast of flame — your fangs shatter on my shield!",
+                        "I’ll leash your fury and bury it beneath the stone!"},
+        ["Gehennas"] = {"Gehennas, your ashes will salt the lava!", "Your embers die in the wind of my rage!"},
+        ["Garr"] = {"I scatter your shards across the deep!", "Garr, your binds unravel under Horde steel!"},
+        ["Baron Geddon"] = {"Baron, I cast you back into the chaos that spawned you!",
+                            "Your explosions are but sparks beside my fury!"},
+        ["Shazzrah"] = {"Shazzrah, your spells twist and fail!", "You vanish — I remain!"},
+        ["Sulfuron Harbinger"] = {"Sulfuron, I silence your flame-forged sermons!",
+                                  "Preach no more — your congregation burns!"},
+        ["Golemagg the Incinerator"] = {"Your giants crumble, Golemagg — and you with them!",
+                                        "I rise through your flames and tear down your pyres!"},
+        ["Majordomo Executus"] = {"You kneel before Ragnaros — I stand to defy him. Executus, your servitude ends with my blade!",
+                                  "You think yourself a master of fire and fear, but I bring a storm no flame can quell!"},
+        ["Ragnaros"] = {"I walk willingly into the heart of fire — not to beg, but to conquer. Ragnaros, your reign ends here!",
+                        "You rose from the depths to command the flames, but now you face a fury greater than your own. I bring the fall of Fire itself!"},
+        ["__event__"] = {"The air trembles with heat and hatred, yet we march forward, unburnt and unbent!",
+                         "We descend into the Firelord’s domain not as mortals, but as legends in the making!",
+                         "The molten veins of this mountain boil with rage, but our resolve burns hotter still!",
+                         "From ash to ember, from flame to fury — we carve our names into the walls of this inferno!",
+                         "Let the core remember: the day fire met steel, and steel did not yield!",
+                         "With every roar we cast into the lava, the fire weakens — and our legend grows!"}
     },
     ["Zul'Gurub"] = {
-      ["High Priestess Jeklik"] = {
-        "Silence your screeches!",
-        "Jeklik, I'll drown your shrieks in warcries!"
-      },
-      ["High Priest Venoxis"] = {
-        "The serpent's fang breaks on my blade!",
-        "Venoxis, your poison meets its antidote!"
-      },
-      ["High Priestess Mar'li"] = {
-        "Your spiders skitter in fear!",
-        "Mar'li, your webs won't bind me!"
-      },
-      ["High Priest Thekal"] = {
-        "The tiger meets the wolf!",
-        "Thekal, your claws dull against Horde might!"
-      },
-      ["High Priestess Arlokk"] = {
-        "Your panther pounces on nothing!",
-        "Arlokk, I stalk the stalker!"
-      },
-      ["Bloodlord Mandokir"] = {
-        "I'll show you who owns the arena!",
-        "Mandokir, face me and fall!"
-      },
-      ["Jin'do the Hexxer"] = {
-        "Your hexes shatter before me!",
-        "Jin'do, my spirit is stronger than your voodoo!"
-      },
-      ["Hakkar"] = {
-        "The Soulflayer falls today!",
-        "Hakkar, the Horde claims your blood!"
-      },
-      ["__event__"] = {
-        "The drums of Zul'Gurub echo our fury!",
-        "The jungle shudders at our victorious shout!"
-      }
+        ["High Priestess Jeklik"] = {"Silence your screeches — the jungle listens to me now!",
+                                     "Jeklik, your wings break beneath my roar!"},
+        ["High Priest Venoxis"] = {"Venoxis, your venom is nothing but sweat before the battle!",
+                                   "I crush your fang, serpent priest!"},
+        ["High Priestess Mar'li"] = {"Webs and shadows fall before my axe!",
+                                     "Mar'li, your spiders serve the Horde tonight!"},
+        ["High Priest Thekal"] = {"Thekal, I hunt the hunter — and I never miss!",
+                                  "Your tiger claws dull on my shield!"},
+        ["High Priestess Arlokk"] = {"I see you, Arlokk — even in shadow!", "Panthers flee at the sound of my warcry!"},
+        ["Bloodlord Mandokir"] = {"Mandokir, your arena bows to real strength!", "Ding this, you overgrown brute!"},
+        ["Jin'do the Hexxer"] = {"Your voodoo dies with your breath, Jin'do!",
+                                 "Hex me? I shatter spirits for breakfast!"},
+        ["Gurubashi Berserker"] = {"Your rage is pale next to mine!", "Berserker? Then die like a beast!"},
+        ["Gurubashi Axe Thrower"] = {"Missed me? Your last throw is your worst!",
+                                     "I'll show you how the Horde throws down!"},
+        ["Gurubashi Champion"] = {"Your champion bleeds today!", "I wear your title as a trophy!"},
+        ["Gurubashi Headhunter"] = {"Your head is safe no longer!", "Let’s see how *you* like being hunted!"},
+        ["Zulian Tiger"] = {"Your stripes won't save you from the Horde!", "Tiger hides make fine banners!"},
+        ["Zulian Panther"] = {"I fear no fang, no claw, no shadow!", "Your silence ends in a scream!"},
+        ["Zul'Gurub Priest"] = {"Your gods fall with your chants!", "Pray louder — it won't save you!"},
+        ["Zul'Gurub Guard"] = {"You guard nothing but your tomb!", "The jungle reclaims your post!"},
+        ["Hakkar"] = {"Soulflayer, your harvest ends in fire and steel!",
+                      "Hakkar, I tear your wings and bleed your name from the jungle!"},
+        ["__event__"] = {"The drums beat louder — it is the sound of your end!",
+                         "Jungle spirits, bear witness: the Horde conquers Zul’Gurub!",
+                         "With every shout, we break a curse! With every swing, a god falls!",
+                         "Gurubashi blood runs down the vines today!",
+                         "The old gods watch from the void — and tremble at our fury!"}
     },
+
     ["Blackwing Lair"] = {
-      ["Razorgore the Untamed"] = {
-        "Your brood ends before it begins!",
-        "Razorgore, I'll smash every egg you cherish!"
-      },
-      ["Vaelastrasz the Corrupt"] = {
-        "Break your chains and fight!",
-        "Vaelastrasz, unleash your fury on Nefarian!"
-      },
-      ["Broodlord Lashlayer"] = {
-        "I'll cut down your brood!",
-        "Lashlayer, your soldiers fall like hatchlings!"
-      },
-      ["Firemaw"] = {
-        "Your flames are weak!",
-        "Firemaw, choke on your own smoke!"
-      },
-      ["Ebonroc"] = {
-        "Darkness cannot shield you!",
-        "Ebonroc, my warcry pierces the shadows!"
-      },
-      ["Flamegor"] = {
-        "Burn for the Horde!",
-        "Flamegor, I turn your fire against you!"
-      },
-      ["Chromaggus"] = {
-        "Your mutations end here!",
-        "Chromaggus, I'll cleave through every scale!"
-      },
-      ["Nefarian"] = {
-        "Your reign ends with my shout!",
-        "Nefarian, your dragonflight dies today!"
-      },
-      ["__event__"] = {
-        "Blackwing falls to our warcry!",
-        "The mountain echoes with the fall of dragons!"
-      }
+        ["Razorgore the Untamed"] = {"Your eggs crack like your will, Razorgore!",
+                                     "I shatter your legacy one hatchling at a time!",
+                                     "Untamed? Then die as a beast, not a king!"},
+        ["Vaelastrasz the Corrupt"] = {"Fight it, Vael! Burn Nefarian, not us!",
+                                       "Your soul is fire — turn it against your master!",
+                                       "I free you with flame and steel, brother!"},
+        ["Broodlord Lashlayer"] = {"I break broods and butcher their masters!",
+                                   "Lashlayer, your children wail for mercy you won’t get!",
+                                   "Your throne of scales crumbles beneath me!"},
+        ["Firemaw"] = {"Firemaw, your breath wheezes in my shadow!",
+                       "I’ll snuff your flame and forge my victory from your bones!",
+                       "Your inferno is but a spark before the storm!"},
+        ["Ebonroc"] = {"You cling to darkness — I tear it from your wings!",
+                       "Ebonroc, I hunt in shadows too. And I never miss.", "You are not immortal, only forgotten!"},
+        ["Flamegor"] = {"Flamegor, your fire feeds my fury!", "Ash to ash, wyrm to worm!",
+                        "Your kind lit the world — I extinguish it!"},
+        ["Chromaggus"] = {"A thousand mutations won't save you!",
+                          "I carve through your chaos, one malformed scale at a time!",
+                          "Chromaggus, you are an abomination — and I am your cure!"},
+        ["Nefarian"] = {"Nefarian, prince of shadows — today you kneel!",
+                        "Your black flight ends in fire, fury, and blood!",
+                        "I face your father's wrath and laugh — your turn!"},
+        ["__event__"] = {"The Black Dragonflight breaks today — and legends are born!",
+                         "From molten halls to shattered bones, Blackwing crumbles!",
+                         "Dragons roar, dragons die — and the Horde stands triumphant!",
+                         "Steel meets scale — and scale shatters!",
+                         "We walk the halls of death… and leave them echoing with victory!"}
     },
     ["Blackrock Depths"] = {
-      ["High Interrogator Gerstahn"] = {
-        "Answer to me, now!",
-        "Gerstahn, your tortures end with my axe!"
-      },
-      ["Bael'Gar"] = {
-        "I'll quench your fire!",
-        "Bael'Gar, your magma bows to the Horde!"
-      },
-      ["General Angerforge"] = {
-        "Your anger fuels my rage!",
-        "Angerforge, I forge victory from your fury!"
-      },
-      ["Golem Lord Argelmach"] = {
-        "Your golems crumble before us!",
-        "Argelmach, your metal minions mean nothing!"
-      },
-      ["Ambassador Flamelash"] = {
-        "Feel the heat of defeat!",
-        "Flamelash, your flames flicker and die!"
-      },
-      ["Magmus"] = {
-        "I'll shatter this hall!",
-        "Magmus, my shout shakes these walls!"
-      },
-      ["Emperor Dagran Thaurissan"] = {
-        "Your empire falls with you!",
-        "Thaurissan, kneel before true might!"
-      },
-      ["__event__"] = {
-        "Blackrock will hear our cry!",
-        "These halls echo with Horde triumph!"
-      }
+        ["High Interrogator Gerstahn"] = {"Answer to me, now!", "Gerstahn, your tortures end with my axe!"},
+        ["Bael'Gar"] = {"I'll quench your fire!", "Bael'Gar, your magma bows to the Horde!"},
+        ["General Angerforge"] = {"Your anger fuels my rage!", "Angerforge, I forge victory from your fury!"},
+        ["Golem Lord Argelmach"] = {"Your golems crumble before us!", "Argelmach, your metal minions mean nothing!"},
+        ["Ambassador Flamelash"] = {"Feel the heat of defeat!", "Flamelash, your flames flicker and die!"},
+        ["Magmus"] = {"I'll shatter this hall!", "Magmus, my shout shakes these walls!"},
+        ["Emperor Dagran Thaurissan"] = {"Your empire falls with you!", "Thaurissan, kneel before true might!"},
+        ["__event__"] = {"Blackrock will hear our cry!", "These halls echo with Horde triumph!"}
     },
     ["Strathholme"] = {
-      ["Baron Rivendare"] = {
-        "Your undead army breaks!",
-        "Rivendare, I'll ride you down like your steed!"
-      },
-      ["Ramstein the Gorger"] = {
-        "I'll smash you into the pavement!",
-        "Ramstein, your hunger ends with my fist!"
-      },
-      ["Baroness Anastari"] = {
-        "Your banshee wails fade!",
-        "Anastari, scream all you want, I do not fear!"
-      },
-      ["Magistrate Barthilas"] = {
-        "Justice comes for you!",
-        "Barthilas, feel the hammer of judgment!"
-      },
-      ["Balnazzar"] = {
-        "Your corruption ends here!",
-        "Balnazzar, I'll cleanse this city with your fall!"
-      },
-      ["__event__"] = {
-        "Even the ashes of Strathholme tremble at our yell!",
-        "Strathholme remembers the strength of the Horde!"
-      }
+        ["Baron Rivendare"] = {"Your undead army breaks!", "Rivendare, I'll ride you down like your steed!"},
+        ["Ramstein the Gorger"] = {"I'll smash you into the pavement!", "Ramstein, your hunger ends with my fist!"},
+        ["Baroness Anastari"] = {"Your banshee wails fade!", "Anastari, scream all you want, I do not fear!"},
+        ["Magistrate Barthilas"] = {"Justice comes for you!", "Barthilas, feel the hammer of judgment!"},
+        ["Balnazzar"] = {"Your corruption ends here!", "Balnazzar, I'll cleanse this city with your fall!"},
+        ["__event__"] = {"Even the ashes of Strathholme tremble at our yell!",
+                         "Strathholme remembers the strength of the Horde!"}
     },
     ["Scholomance"] = {
-      ["Darkmaster Gandling"] = {
-        "I'll school you in defeat!",
-        "Gandling, class is dismissed!"
-      },
-      ["Ras Frostwhisper"] = {
-        "Feel the heat of the Horde!",
-        "Ras, your chill cannot cool my rage!"
-      },
-      ["Rattlegore"] = {
-        "I'll rattle your bones!",
-        "Rattlegore, you'll clatter in pieces!"
-      },
-      ["Lord Alexei Barov"] = {
-        "Your family fortune ends today!",
-        "Alexei, the Barov name dies with you!"
-      },
-      ["Lady Illucia Barov"] = {
-        "Your dark lessons are over!",
-        "Illucia, the Horde grades you with defeat!"
-      },
-      ["Doctor Theolen Krastinov"] = {
-        "No more experiments on us!",
-        "Krastinov, your scalpel dulls against my hide!"
-      },
-      ["The Ravenian"] = {
-        "I'll carve my path through you!",
-        "Ravenian, you'll feed the spirits tonight!"
-      },
-      ["__event__"] = {
-        "Scholomance quakes at our war shout!",
-        "These halls fear the learning of Horde strength!"
-      }
+        ["Darkmaster Gandling"] = {"I'll school you in defeat!", "Gandling, class is dismissed!"},
+        ["Ras Frostwhisper"] = {"Feel the heat of the Horde!", "Ras, your chill cannot cool my rage!"},
+        ["Rattlegore"] = {"I'll rattle your bones!", "Rattlegore, you'll clatter in pieces!"},
+        ["Lord Alexei Barov"] = {"Your family fortune ends today!", "Alexei, the Barov name dies with you!"},
+        ["Lady Illucia Barov"] = {"Your dark lessons are over!", "Illucia, the Horde grades you with defeat!"},
+        ["Doctor Theolen Krastinov"] = {"No more experiments on us!", "Krastinov, your scalpel dulls against my hide!"},
+        ["The Ravenian"] = {"I'll carve my path through you!", "Ravenian, you'll feed the spirits tonight!"},
+        ["__event__"] = {"Scholomance quakes at our war shout!", "These halls fear the learning of Horde strength!"}
     },
     ["Scarlet Monastery"] = {
-      ["Herod"] = {
-        "Herod, your zeal breaks before my might!",
-        "Champion of the Scarlet Crusade? Meet the fury of the Horde!"
-      },
-      ["High Inquisitor Whitemane"] = {
-        "Whitemane, your prayers fall on deaf spirits!",
-        "Rise and fall again, Whitemane!"
-      },
-      ["Scarlet Commander Mograine"] = {
-        "Mograine, your order ends with my shout!",
-        "Crusader, prepare to face true conviction!"
-      },
-      ["__event__"] = {
-        "The Scarlet Crusade trembles at our approach!"
-      }
+        ["High Inquisitor Whitemane"] = {"Whitemane, no prayer can save you from this fury!",
+                                         "Wake the dead all you want — I’ll put them down again!"},
+        ["Scarlet Commander Mograine"] = {"Mograine, your faith dies today!",
+                                          "Steel speaks louder than sermons, Commander!"},
+        ["Herod"] = {"Herod, your spin ends in silence!", "You call yourself a Champion — I call you dead weight!"},
+        ["Arcanist Doan"] = {"Doan, your arcane tricks end here!", "Your shield won't save you from this reckoning!"},
+        ["Houndmaster Loksey"] = {"Loksey, I leash your mutts and your madness!", "Your hounds whimper at my warcry!"},
+        ["Interrogator Vishas"] = {"Vishas, feel what true pain is!", "No rack or chain can match my fury!"},
+        ["Bloodmage Thalnos"] = {"Thalnos, your blood magic boils in your veins!",
+                                 "I’ll scatter your bones across these crypts!"},
+        ["Azshir the Sleepless"] = {"Azshir, rest comes at last — by force!", "I break your curse with one cry!"},
+        ["Fallen Champion"] = {"Champion? You fell for a reason!", "I bury your pride with your corpse!"},
+        ["Ironspine"] = {"Ironspine, your bones creak before my shout!", "Back to the grave with you, clatterbag!"},
+        ["__event__"] = {"The walls of the Monastery crack with our warcry!",
+                         "Scarlet blood will paint these hallowed halls!",
+                         "Their faith is strong, but our wrath is stronger!",
+                         "No prayer, no relic, no martyr will save them now!",
+                         "The Crusade ends not with silence, but with screaming steel!"}
     },
     ["The Stockade"] = {
-      ["Bazil Thredd"] = {
-        "Thredd, your jailbreak ends now!",
-        "These walls echo with your defeat!"
-      },
-      ["__event__"] = {
-        "Stormwind's prisoners hear our fury!",
-        "The Stockade shakes with Horde rage!"
-      }
+        ["Bazil Thredd"] = {"Thredd, your uprising dies behind bars!", "Bazil, your jailbreak ends in shackles!"},
+        ["Dextren Ward"] = {"Ward, your sentence is death!", "Your gang won't save you now, Dextren!"},
+        ["Kam Deepfury"] = {"Deepfury, your rage meets true fury!", "I silence your fire with cold steel!"},
+        ["Hamhock"] = {"Hamhock, your grunt is your last!", "I turn your squeal into a scream!"},
+        ["Bruegal Ironknuckle"] = {"Ironknuckle, I break your will and your bones!", "You're no match for Horde steel!"},
+        ["__event__"] = {"Chains rattle and walls shake with our fury!",
+                         "The Stockade falls under our warcries — even Stormwind trembles!"}
     },
+
     ["Shadowfang Keep"] = {
-      ["Baron Ashbury"] = {
-        "Ashbury, your curses break before me!",
-        "I bring daylight to your haunted halls!"
-      },
-      ["Lord Godfrey"] = {
-        "Your bullets cannot pierce my spirit!",
-        "Godfrey, the Horde ends your rebellion!"
-      },
-      ["__event__"] = {
-        "Shadowfang trembles at our howl!",
-        "Worgen and undead alike flee our cry!"
-      }
+        ["Baron Ashbury"] = {"Ashbury, your necromancy ends in ashes!", "Your barony ends with a blade to the heart!"},
+        ["Baron Silverlaine"] = {"Silverlaine, your howls go unanswered!", "I banish your ghost to the void!"},
+        ["Commander Springvale"] = {"Springvale, you defend a lost cause!", "Your valor dies with your undead shell!"},
+        ["Odo the Blindwatcher"] = {"Odo, your blindness won’t save you!", "Even the blind see your doom!"},
+        ["Fenrus the Devourer"] = {"Fenrus, I chain the beast within!", "Devour this, mutt!"},
+        ["Wolf Master Nandos"] = {"Nandos, your pack scatters like pups!", "I break your leash and your pride!"},
+        ["Archmage Arugal"] = {"Arugal, your curses unravel before my roar!",
+                               "Your creations turn on you, just as I turn your bones to dust!"},
+        ["Lord Godfrey"] = {"Godfrey, your rebellion dies with you!", "Your bullets won’t stop my charge!"},
+        ["__event__"] = {"Shadowfang howls with the agony of its masters!",
+                         "Undead and worgen alike flee from the sound of the Horde!"}
     },
+
     ["Blackfathom Deeps"] = {
-      ["Gelihast"] = {
-        "Your tides crash in vain!",
-        "Gelihast, the depths betray you!"
-      },
-      ["Twilight Lord Bathiel"] = {
-        "I shatter your dark rituals!",
-        "Bathiel, drown in defeat!"
-      },
-      ["__event__"] = {
-        "The Deeps echo with our battle roar!",
-        "Even the sea stirs at our command!"
-      }
+        ["Ghamoo-ra"] = {"Ghamoo-ra, your shell cracks under my might!", "Turtle god? You're soup now!"},
+        ["Lady Sarevess"] = {"Sarevess, your naga plots sink today!", "Your coils unravel beneath my steel!"},
+        ["Gelihast"] = {"Gelihast, your tide has turned!", "The deep delivers you to death!"},
+        ["Lorgus Jett"] = {"Jett, your flames are snuffed!", "Your chaos is no match for my fury!"},
+        ["Twilight Lord Kelris"] = {"Kelris, I tear your dreams apart!", "Your sleep ends in screams!"},
+        ["Aku'mai"] = {"Aku'mai, your heads fall one by one!", "Your jaws crack beneath my warcry!"},
+        ["Twilight Lord Bathiel"] = {"Bathiel, your faith drowns with you!", "Twilight dies in the depths!"},
+        ["Old Serra'kis"] = {"Serra'kis, ancient terror meets modern wrath!", "Your fangs meet iron!"},
+        ["__event__"] = {"The seas churn with our battle cry!", "Even the tide recoils from our fury!"}
     },
+
     ["Razorfen Kraul"] = {
-      ["Roogug"] = {
-        "Your oink is your last!",
-        "Roogug, tusks crack beneath my blade!"
-      },
-      ["Charlga Razorflank"] = {
-        "Charlga, your tribe falls today!",
-        "The Kraul belongs to the Horde!"
-      },
-      ["__event__"] = {
-        "Quilboar squeal before our might!",
-        "Razorfen trembles at our shout!"
-      }
+        ["Aggem Thorncurse"] = {"Aggem, your thorns snap like twigs!", "Your curses wilt before my might!"},
+        ["Death Speaker Jargba"] = {"Jargba, I silence your whispers of death!", "You speak only your own doom!"},
+        ["Overlord Ramtusk"] = {"Ramtusk, your stampede ends in blood!", "I break your tusks and your pride!"},
+        ["Roogug"] = {"Roogug, grunt your last grunt!", "I turn squeals to screams!"},
+        ["Blind Hunter"] = {"Blind Hunter, you never saw this coming!", "Your fangs break on my fury!"},
+        ["Charlga Razorflank"] = {"Charlga, your reign ends in squeals!", "Razorflank, I slice your destiny in two!"},
+        ["Earthcaller Halmgar"] = {"Halmgar, your earth trembles beneath me!", "I bury your magic with brute force!"},
+        ["__event__"] = {"The Kraul echoes with our blood-boiling shouts!",
+                         "Quilboar tribes fall squealing under Horde steel!"}
     },
     ["Razorfen Downs"] = {
-      ["Tuten'kash"] = {
-        "I end your endless skitter!",
-        "Tuten'kash, crumble like ancient dust!"
-      },
-      ["Amnennar the Coldbringer"] = {
-        "Your frost can't chill my fury!",
-        "Amnennar, your reign ends in ashes!"
-      },
-      ["__event__"] = {
-        "The Downs ring with cries of victory!",
-        "Rise from your graves to face defeat!"
-      }
+        ["Tuten'kash"] = {"Your skittering ends beneath my boot!", "Tuten'kash, your webs unravel before my fury!"},
+        ["Mordresh Fire Eye"] = {"Your flames flicker and die, Mordresh!", "Fire Eye, I extinguish your unholy blaze!"},
+        ["Glutton"] = {"Glutton, your insatiable hunger meets its end!", "I'll carve the greed from your bloated form!"},
+        ["Ragglesnout"] = {"Ragglesnout, your ambush fails!", "From the shadows, I drag you into defeat!"},
+        ["Plaguemaw the Rotting"] = {"Plaguemaw, your decay is cleansed by my blade!",
+                                     "Rotting fiend, I purify your corruption!"},
+        ["Amnennar the Coldbringer"] = {"Amnennar, your icy grip shatters under my wrath!",
+                                        "Coldbringer, I thaw your frozen heart with fire!"},
+        ["__event__"] = {"The twisted halls of Razorfen echo with our victorious cries!",
+                         "Through thorns and decay, our warcries purify the darkness!"}
     },
+
     ["Gnomeregan"] = {
-      ["Grubbis"] = {
-        "Grubbis, your troggs scatter before me!",
-        "I'll scrap your machines and your hopes!"
-      },
-      ["Mekgineer Thermaplugg"] = {
-        "Thermaplugg, no gadget saves you now!",
-        "Your city will echo with Horde triumph!"
-      },
-      ["__event__"] = {
-        "Gnomeregan sparks with our rage!",
-        "The tunnels resound with victory!"
-      }
+        ["Grubbis"] = {"Grubbis, your troggs scatter before my might!", "I'll dismantle your chaos, piece by piece!"},
+        ["Viscous Fallout"] = {"Fallout, your sludge meets its match!", "I neutralize your toxic presence!"},
+        ["Electrocutioner 6000"] = {"Your circuits fry under my assault!",
+                                    "Electrocutioner, I short-circuit your reign!"},
+        ["Crowd Pummeler 9-60"] = {"Pummeler, your gears grind to a halt!", "I dismantle your mechanical menace!"},
+        ["Dark Iron Ambassador"] = {"Ambassador, your diplomacy ends in defeat!",
+                                    "Dark Iron treachery meets Horde justice!"},
+        ["Mekgineer Thermaplugg"] = {"Thermaplugg, your inventions fail you now!",
+                                     "I override your systems with brute force!"},
+        ["__event__"] = {"Gnomeregan's halls reverberate with our triumph!",
+                         "Through steam and steel, our warcries dominate!"}
     },
+
     ["Uldaman"] = {
-      ["Revelosh"] = {
-        "Relics crumble before my shout!",
-        "Revelosh, I claim these treasures!"
-      },
-      ["Archaedas"] = {
-        "Stone lord, I shatter your legacy!",
-        "Archaedas, awaken only to fall!"
-      },
-      ["__event__"] = {
-        "Uldaman's echoes awaken to our warcry!",
-        "Ancient halls shake with new battle!"
-      }
+        ["The Lost Dwarves"] = {"Baelog, Eric, Olaf—your legacy ends here!",
+                                "Lost Dwarves, I reclaim the secrets you guard!"},
+        ["Revelosh"] = {"Revelosh, your relics are mine to claim!", "I shatter your ancient defenses!"},
+        ["Ironaya"] = {"Ironaya, your stone form crumbles before me!", "Titan guardian, I break your eternal watch!"},
+        ["Obsidian Sentinel"] = {"Sentinel, your obsidian shell cracks under pressure!",
+                                 "I reduce your ancient form to rubble!"},
+        ["Ancient Stone Keeper"] = {"Stone Keeper, your sands scatter in the wind!",
+                                    "I dismantle your ancient mechanisms!"},
+        ["Galgann Firehammer"] = {"Firehammer, your flames are extinguished!", "I cool your fiery temper with steel!"},
+        ["Grimlok"] = {"Grimlok, your brute strength falters!", "I outmatch your primal fury!"},
+        ["Archaedas"] = {"Archaedas, your ancient power is obsolete!", "I rewrite the history you guard!"},
+        ["__event__"] = {"Uldaman's ancient halls echo with our conquest!",
+                         "Through timeworn corridors, our warcries resound!"}
     },
+
     ["Zul'Farrak"] = {
-      ["Chief Ukorz Sandscalp"] = {
-        "Ukorz, your tribe kneels today!",
-        "Sandscalp, feel the storm of the Horde!"
-      },
-      ["Nekrum & Sezz'ziz"] = {
-        "Twin threats fall doubly fast!",
-        "Nekrum, Sezz'ziz, taste the dust of defeat!"
-      },
-      ["__event__"] = {
-        "The desert hears our cry!",
-        "Zul'Farrak trembles beneath the Horde!"
-      }
+        ["Antu'sul"] = {"Antu'sul, your guardians fall before me!", "I silence your ancient chants!"},
+        ["Theka the Martyr"] = {"Theka, your martyrdom is in vain!", "I end your sacrificial legacy!"},
+        ["Witch Doctor Zum'rah"] = {"Zum'rah, your voodoo is powerless here!", "I dispel your dark rituals!"},
+        ["Shadowpriest Sezz'ziz"] = {"Sezz'ziz, your shadows dissipate!", "I illuminate your darkness with fury!"},
+        ["Nekrum Gutchewer"] = {"Nekrum, your gut-chewing days are over!", "I sever your savage hunger!"},
+        ["Hydromancer Velratha"] = {"Velratha, your waters fail to drown me!", "I evaporate your aquatic assaults!"},
+        ["Sergeant Bly"] = {"Bly, your rebellion ends now!", "I quell your insubordination with force!"},
+        ["Chief Ukorz Sandscalp"] = {"Ukorz, your leadership crumbles!", "I decapitate your authority!"},
+        ["Ruuzlu"] = {"Ruuzlu, your loyalty leads you to doom!", "I dismantle your blind allegiance!"},
+        ["Gahz'rilla"] = {"Gahz'rilla, your monstrous form meets its match!", "I pierce your scales with precision!"},
+        ["Zerillis"] = {"Zerillis, your ambush is thwarted!", "I expose your hidden threats!"},
+        ["Sandarr Dunereaver"] = {"Sandarr, your dunes offer no refuge!", "I erode your defenses like the desert wind!"},
+        ["Dustwraith"] = {"Dustwraith, your ethereal form is no escape!", "I bind your spirit to the sands!"},
+        ["__event__"] = {"Zul'Farrak's sands are stained with our victory!",
+                         "Through sun and storm, our warcries dominate!"}
     },
+
     ["Maraudon"] = {
-      ["Noxxion"] = {
-        "I purge your poison!",
-        "Noxxion, the earth rejects you!"
-      },
-      ["Princess Theradras"] = {
-        "Theradras, quake before my might!",
-        "Your earth magic falters, princess!"
-      },
-      ["__event__"] = {
-        "The caverns rumble with our arrival!",
-        "Maraudon bows to Horde strength!"
-      }
+        ["Noxxion"] = {"Noxxion, your toxic reign ends here!", "I purge your poison with fury!"},
+        ["Lord Vyletongue"] = {"Vyletongue, your schemes rot in the soil!", "I rip your silver tongue from your skull!"},
+        ["Meshlok the Harvester"] = {"Meshlok, you harvest only your own defeat!", "Your roots wither under my warcry!"},
+        ["Celebras the Cursed"] = {"Celebras, your lineage is shattered!", "I break the curse that binds your soul!"},
+        ["Princess Theradras"] = {"Theradras, quake before the might of the Horde!",
+                                  "Your earth magic falters beneath my fury!"},
+        ["__event__"] = {"The caverns of Maraudon quake with our fury!",
+                         "Nature itself bends before the warcries of the Horde!",
+                         "Stones crack and roots recoil from our advance!"}
     },
+
     ["Temple of Atal'Hakkar"] = {
-      ["Avatar of Hakkar"] = {
-        "Serpents coil and fall!",
-        "Avatar, your ritual ends in ruin!"
-      },
-      ["Jammal'an the Prophet"] = {
-        "Your prophecies fail you!",
-        "Jammal'an, witness the truth of defeat!"
-      },
-      ["__event__"] = {
-        "The temple crumbles under our shout!",
-        "Atal'Hakkar hears the roar of the Horde!"
-      }
+        ["Atal'alarion"] = {"Stone guardian, you will not block our path!", "Atal'alarion, crumble to dust!"},
+        ["Dreamscythe"] = {"Dreamscythe, your illusions are broken!", "Your dreams end in nightmare!"},
+        ["Weaver"] = {"Weaver, your time is unspun!", "Your threads fray under my strike!"},
+        ["Avatar of Hakkar"] = {"Hakkar's will is severed here!", "Serpents coil and die beneath the Horde!"},
+        ["Jammal'an the Prophet"] = {"Your prophecies are lies!", "Jammal'an, I end your twisted sermons!"},
+        ["Ogom the Wretched"] = {"Ogom, your curses rebound upon you!", "I shatter your twisted soul!"},
+        ["Morphaz"] = {"Morphaz, your scales are not enough!", "I burn your wings and your pride!"},
+        ["Hazzas"] = {"Hazzas, slither back to the void!", "Your fangs shatter on my shield!"},
+        ["__event__"] = {"The temple trembles as ancient powers fall!", "The spirits wail as the Horde claims victory!",
+                         "Atal'Hakkar echoes with the roar of the living!"}
     },
+
     ["Dire Maul"] = {
-      ["Prince Tortheldrin"] = {
-        "Your court is dismissed!",
-        "Tortheldrin, bow to the real power!"
-      },
-      ["King Gordok"] = {
-        "Gordok, feel the smash of the Horde!",
-        "Your ogres serve our victory today!"
-      },
-      ["__event__"] = {
-        "Dire Maul's ruins echo with glory!",
-        "Ogres tremble before our might!"
-      }
+        -- East
+        ["Zevrim Thornhoof"] = {"Thornhoof, your blood rituals end now!", "I trample your dark altar to dust!"},
+        ["Hydrospawn"] = {"Hydrospawn, your waters boil before me!", "I drown your elemental essence!"},
+        ["Lethtendris"] = {"Lethtendris, your arcane traps fail you!", "The Horde shatters your illusions!"},
+        -- West
+        ["Illyanna Ravenoak"] = {"Ravenoak, your forest falls silent!", "Your bow breaks beneath my fury!"},
+        ["Magister Kalendris"] = {"Kalendris, your magics unravel!", "I bring ruin to your arcane sanctum!"},
+        ["Tendris Warpwood"] = {"Warpwood, I cleave your ancient bark!", "You rot like the past you protect!"},
+        -- North (Gordok)
+        ["Guard Mol'dar"] = {"Mol'dar, I break your shield and spirit!", "Your watch ends here!"},
+        ["Guard Fengus"] = {"Fengus, your laughter dies in battle!", "Your gut is no match for my blade!"},
+        ["Guard Slip'kik"] = {"Slip'kik, your tricks fail you now!", "I outwit and outfight you!"},
+        ["Captain Kromcrush"] = {"Kromcrush, I flatten your pride!", "The Horde leaves no ogre standing!"},
+        ["Cho'Rush the Observer"] = {"Cho'Rush, your gaze meets my axe!", "You observe your own defeat!"},
+        ["King Gordok"] = {"King Gordok, your rule ends in blood!", "Your crown shatters under Horde boots!"},
+        ["Prince Tortheldrin"] = {"Tortheldrin, your tyranny ends today!", "Your court crumbles beneath our charge!"},
+        ["__event__"] = {"The ruins of Dire Maul echo with Horde victory!",
+                         "Ogres, elves, and ancients fall alike to our might!",
+                         "From gardens to prisons, we claim all halls of this broken empire!"}
     },
     ["Lower Blackrock Spire"] = {
-      ["Warchief Rend Blackhand"] = {
-        "Rend, your false Horde falls!",
-        "The Blackrock clan shatters today!"
-      },
-      ["Overlord Wyrmthalak"] = {
-        "Your dragons serve the true Horde or perish!",
-        "Wyrmthalak, my roar outmatches yours!"
-      },
-      ["__event__"] = {
-        "Lower Spire shakes with our footsteps!",
-        "Blackrock bends to the Horde!"
-      }
+        ["Warchief Rend Blackhand"] = {"False Warchief, your legacy burns in dragonfire!",
+                                       "Rend, you mock the Horde no longer — I end your charade!"},
+        ["Overlord Wyrmthalak"] = {"Overlord, your command ends at the tip of my blade!",
+                                   "Wyrmthalak, your roars are drowned in our fury!"},
+        ["War Master Voone"] = {"Voone, your tactics are outdated, your war lost!",
+                                "I bring an end to your battles and your breath!"},
+        ["Mother Smolderweb"] = {"Smolderweb, your brood burns in their webs!", "Your fangs find no purchase on steel!"},
+        ["Urok Doomhowl"] = {"Doomhowl, I howl louder — and deadlier!", "Urok, your arena belongs to me now!"},
+        ["Quartermaster Zigris"] = {"Zigris, your supplies won’t save your skin!",
+                                    "The only thing you're delivering is your defeat!"},
+        ["__event__"] = {"The halls of Lower Spire echo with the fall of pretenders!",
+                         "From stone to steel, we carve a path through Blackrock treachery!",
+                         "Their dragons, their wolves, their fire — all broken beneath our boots!"}
     },
     ["Upper Blackrock Spire"] = {
-      ["General Drakkisath"] = {
-        "Your reign ends, Drakkisath!",
-        "I'll break your command over these halls!"
-      },
-      ["Pyroguard Emberseer"] = {
-        "Emberseer, your flames flicker out!",
-        "Feel the heat of your own defeat!"
-      },
-      ["__event__"] = {
-        "Upper Spire blazes with our victory!",
-        "None withstand the Horde's ascent!"
-      }
+        ["General Drakkisath"] = {"Drakkisath, your tyranny ends under my warcry!",
+                                  "I tear down your banners and bury your command in fire!"},
+        ["Pyroguard Emberseer"] = {"Your fire guards nothing now, Emberseer!", "You will burn with your own ambition!"},
+        ["Solakar Flamewreath"] = {"Solakar, your flame wreath extinguishes in shame!",
+                                   "Your flight ends with a scream in the smoke!"},
+        ["Gyth"] = {"Gyth, no winged beast escapes my fury!", "Fall, dragon, and take your master with you!"},
+        ["Jed Runewatcher"] = {"Runes won't save you from raw might!", "Jed, your watch ends forever!"},
+        ["The Beast"] = {"Beast? You’re just another pelt for my trophy wall!",
+                         "Your roars are silenced beneath my steel!"},
+        ["__event__"] = {"Upper Spire burns with the fury of our ascent!",
+                         "The Black Dragonflight trembles as we breach the summit!",
+                         "No warlord, no flame, no wyrm can stand against our rise!"}
     },
     ["Ruins of Ahn'Qiraj"] = {
-      ["Ossirian the Unscarred"] = {
-        "Your invincibility ends now!",
-        "Ossirian, scars of defeat await you!"
-      },
-      ["Moam"] = {
-        "Moam, your mana drains to nothing!",
-        "Stone and sand crumble beneath me!"
-      },
-      ["__event__"] = {
-        "The sands of Ahn'Qiraj shift with our roar!",
-        "Ruins awaken to Horde conquest!"
-      }
+        ["Kurinnaxx"] = {"Kurinnaxx, your sandstorms falter before our might!",
+                         "Your venomous trail ends beneath our boots!"},
+        ["General Rajaxx"] = {"Rajaxx, your legions crumble under our assault!", "The Horde silences your war cries!"},
+        ["Moam"] = {"Moam, your mana-fueled fury is extinguished!", "Your obsidian form shatters under our strength!"},
+        ["Buru the Gorger"] = {"Buru, your gluttony meets its end!", "We pierce your bloated hide with precision!"},
+        ["Ayamiss the Hunter"] = {"Ayamiss, your swarm scatters before us!",
+                                  "The skies no longer shield your treachery!"},
+        ["Ossirian the Unscarred"] = {"Ossirian, your unscarred legacy ends today!",
+                                      "We carve our victory into your stone form!"},
+        ["Captain Qeez"] = {"Captain Qeez, your command falters!", "Your troops flee as we advance!"},
+        ["Captain Tuubid"] = {"Tuubid, your defenses are breached!", "We dismantle your ranks with ease!"},
+        ["Captain Drenn"] = {"Drenn, your strategies fail you!", "The Horde outmaneuvers your every move!"},
+        ["Captain Xurrem"] = {"Xurrem, your end is nigh!", "We break your lines and your spirit!"},
+        ["Major Yeggeth"] = {"Yeggeth, your major title can't save you!", "We reduce your forces to dust!"},
+        ["Major Pakkon"] = {"Pakkon, your resistance is futile!", "We crush your ambitions underfoot!"},
+        ["Colonel Zerran"] = {"Zerran, your colonel's pride precedes your fall!",
+                              "We dismantle your hierarchy with force!"},
+        ["__event__"] = {"The sands of Ahn'Qiraj tremble with our triumph!",
+                         "Ancient ruins echo our victorious shouts!", "We awaken the past with the roar of conquest!",
+                         "The Horde's banner flies over shattered temples!"}
     },
     ["Temple of Ahn'Qiraj"] = {
-      ["The Prophet Skeram"] = {
-        "Your visions fail you!",
-        "Skeram, the Horde shatters your illusions!"
-      },
-      ["C'Thun"] = {
-        "C'Thun, your eye closes forever!",
-        "From the void I shout your demise!"
-      },
-      ["__event__"] = {
-        "The Old God trembles at our battle cry!",
-        "Ahn'Qiraj echoes with the fall of darkness!"
-      }
+        ["The Prophet Skeram"] = {"Skeram, your visions are clouded by defeat!",
+                                  "Your prophecies crumble under our assault!"},
+        ["Battleguard Sartura"] = {"Sartura, your battle prowess is unmatched—until now!",
+                                   "We dismantle your guard with relentless force!"},
+        ["Fankriss the Unyielding"] = {"Fankriss, your unyielding nature meets our unbreakable will!",
+                                       "We sever your ties to this world!"},
+        ["Princess Huhuran"] = {"Huhuran, your royal lineage ends here!", "We dethrone your tyranny with precision!"},
+        ["Viscidus"] = {"Viscidus, your gelatinous form cannot withstand our fury!",
+                        "We freeze and shatter your essence!"},
+        ["Ouro"] = {"Ouro, your subterranean reign is over!", "We unearth your doom with every strike!"},
+        ["Emperor Vek'lor"] = {"Vek'lor, your emperor's decree holds no power here!",
+                               "We dethrone your illusions with clarity!"},
+        ["Emperor Vek'nilash"] = {"Vek'nilash, your might is no match for our resolve!",
+                                  "We break your empire's foundation!"},
+        ["Lord Kri"] = {"Kri, your lordship ends in disgrace!", "We dismantle your triad with precision!"},
+        ["Princess Yauj"] = {"Yauj, your screams are silenced by our onslaught!", "We sever your lineage with finality!"},
+        ["Vem"] = {"Vem, your brute strength falters before strategy!", "We outmaneuver your every move!"},
+        ["C'Thun"] = {"C'Thun, your eye sees its own demise!", "We pierce the heart of your darkness!"},
+        ["__event__"] = {"The temple walls quake with our victory!", "Ancient evils fall before the Horde's might!",
+                         "We illuminate the shadows with our triumph!", "The Old God's whispers are silenced forever!"}
     },
     ["Naxxramas"] = {
-      ["Instructor Razuvious"] = {
-        "Your lessons end in failure!",
-        "Razuvious, class dismissed!"
-      },
-      ["Kel'Thuzad"] = {
-        "Kel'Thuzad, your lichdom ends here!",
-        "The Scourge shatters before the Horde!"
-      },
-      ["__event__"] = {
-        "Naxxramas quivers at our presence!",
-        "Even undead bow to the Horde's fury!"
-      }
+        ["Anub'Rekhan"] = {"Anub'Rekhan, your skittering ends now!", "We crush your carapace beneath our boots!"},
+        ["Grand Widow Faerlina"] = {"Faerlina, your widow's veil is torn asunder!",
+                                    "We dispel your frenzy with calculated strikes!"},
+        ["Maexxna"] = {"Maexxna, your web unravels before us!", "We squash your eight-legged menace!"},
+        ["Noth the Plaguebringer"] = {"Noth, your plagues find no host here!", "We cleanse your corruption with fire!"},
+        ["Heigan the Unclean"] = {"Heigan, your filth is no match for our purity!",
+                                  "We dance through your decay unscathed!"},
+        ["Loatheb"] = {"Loatheb, your spores wither under our gaze!", "We deny your rot a place to spread!"},
+        ["Instructor Razuvious"] = {"Razuvious, your teachings end in failure!",
+                                    "We graduate with honors over your defeat!"},
+        ["Gothik the Harvester"] = {"Gothik, your harvest yields only loss!", "We reap your soul with vengeance!"},
+        ["Thane Korth'azz"] = {"Korth'azz, your flames are extinguished!", "We cool your fury with our resolve!"},
+        ["Lady Blaumeux"] = {"Blaumeux, your shadows dissipate before us!", "We shine light into your darkness!"},
+        ["Sir Zeliek"] = {"Zeliek, your righteousness is misplaced!", "We correct your path with steel!"},
+        ["Baron Rivendare"] = {"Rivendare, your deathly ride ends here!", "We unseat your tyranny with force!"},
+        ["Patchwerk"] = {"Patchwerk, your stitches come undone!", "We dismantle your monstrosity piece by piece!"},
+        ["Grobbulus"] = {"Grobbulus, your mutations are purged!", "We neutralize your toxins with precision!"},
+        ["Gluth"] = {"Gluth, your hunger is unfulfilled!", "We starve your menace into oblivion!"},
+        ["Thaddius"] = {"Thaddius, your charges are grounded!", "We balance your chaos with order!"},
+        ["Sapphiron"] = {"Sapphiron, your icy breath meets our fiery wrath!", "We thaw your frozen heart with fury!"},
+        ["Kel'Thuzad"] = {"Kel'Thuzad, your necromancy ends now!", "We shatter your phylactery and your ambitions!"},
+        ["__event__"] = {"Naxxramas trembles under our assault!", "The Scourge's stronghold crumbles before us!",
+                         "We purge the necropolis of its unholy inhabitants!",
+                         "The Lich King's grip weakens with our victory!"}
     },
     ["Hellfire Ramparts"] = {
-      ["Vazruden the Herald"] = {
-        "Your Legion can't stop me!",
-        "Vazruden, I break your gate!"
-      },
-      ["Nazran"] = {
-        "Nazran, feel the fury of Outland's conquerors!",
-        "Your roars fade before our might!"
-      },
-      ["__event__"] = {
-        "The Ramparts fall to the Horde!",
-        "Hellfire itself quakes at our yell!"
-      }
+        ["Vazruden the Herald"] = {"Your Legion can't stop me!", "Vazruden, I break your gate!"},
+        ["Nazran"] = {"Nazran, feel the fury of Outland's conquerors!", "Your roars fade before our might!"},
+        ["__event__"] = {"The Ramparts fall to the Horde!", "Hellfire itself quakes at our yell!"}
     },
     ["Karazhan"] = {
-      ["Attumen the Huntsman"] = {
-        "Your steed runs from my fury!",
-        "Attumen, the hunt ends with you!"
-      },
-      ["Prince Malchezaar"] = {
-        "All realities? I conquer this one first!",
-        "Malchezaar, your demons cower before me!"
-      },
-      ["__event__"] = {
-        "The tower echoes with our triumph!",
-        "Karazhan's spirits heed our warcry!"
-      }
+        ["Attumen the Huntsman"] = {"Your steed runs from my fury!", "Attumen, the hunt ends with you!"},
+        ["Prince Malchezaar"] = {"All realities? I conquer this one first!", "Malchezaar, your demons cower before me!"},
+        ["__event__"] = {"The tower echoes with our triumph!", "Karazhan's spirits heed our warcry!"}
     },
     ["Utgarde Keep"] = {
-      ["Prince Keleseth"] = {
-        "Keleseth, feel true royal pain!",
-        "I'll shatter your vrykul ambitions!"
-      },
-      ["Ingvar the Plunderer"] = {
-        "Ingvar, the Horde plunders you!",
-        "Your longboat won't sail you from defeat!"
-      },
-      ["__event__"] = {
-        "Utgarde shakes with our victory!",
-        "Vrykul hear the roar of the Horde!"
-      }
+        ["Prince Keleseth"] = {"Keleseth, feel true royal pain!", "I'll shatter your vrykul ambitions!"},
+        ["Ingvar the Plunderer"] = {"Ingvar, the Horde plunders you!", "Your longboat won't sail you from defeat!"},
+        ["__event__"] = {"Utgarde shakes with our victory!", "Vrykul hear the roar of the Horde!"}
     },
     ["Icecrown Citadel"] = {
-      ["Lord Marrowgar"] = {
-        "Marrowgar, I scatter your bones!",
-        "Your citadel is my battleground!"
-      },
-      ["The Lich King"] = {
-        "Arthas, your reign of terror ends now!",
-        "The Horde brings you final death!"
-      },
-      ["__event__"] = {
-        "Icecrown itself trembles at our shout!",
-        "From rampart to throne, victory is ours!"
-      }
+        ["Lord Marrowgar"] = {"Marrowgar, I scatter your bones!", "Your citadel is my battleground!"},
+        ["The Lich King"] = {"Arthas, your reign of terror ends now!", "The Horde brings you final death!"},
+        ["__event__"] = {"Icecrown itself trembles at our shout!", "From rampart to throne, victory is ours!"}
     },
     ["Stranglethorn Vale"] = {
-      ["Kurzen Jungle Fighter"] = {
-        "Kurzen will hear your screams!",
-        "I'll carve my path through your jungle!"
-      },
-      ["Bloodsail Raider"] = {
-        "Your pirate days are over!",
-        "Blood on the water for the Horde!"
-      },
-      ["Wild Panther"] = {
-        "I'll tame your fury, beast!",
-        "Panther, hear the roar that ends you!"
-      },
-      ["__event__"] = {
-        "Stranglethorn's canopy shakes with our roar!",
-        "The jungle drums beat for the Horde!"
-      }
+        ["Bloodscalp Hunter"] = {"Your arrows can't pierce the fury of the Horde!",
+                                 "Bloodscalp, your hunt ends with my blade!"},
+        ["Bloodscalp Witch Doctor"] = {"Your dark rituals are powerless against true strength!",
+                                       "Witch Doctor, your curses return to you tenfold!"},
+        ["Bloodscalp Beastmaster"] = {"Your beasts cower before my might!", "Beastmaster, the jungle obeys me now!"},
+        ["Skullsplitter Warrior"] = {"Your skulls will adorn our victory banners!",
+                                     "Warrior, feel the wrath of the Horde!"},
+        ["Skullsplitter Mystic"] = {"Mystic, your visions couldn't foresee this defeat!",
+                                    "Your spells are but whispers against our roar!"},
+        ["Skullsplitter Hunter"] = {"Hunter, your prey turns predator!",
+                                    "The jungle favors the bold, and you are found lacking!"},
+        ["Kurzen Commando"] = {"Your rebellion ends here, Commando!", "Kurzen's dreams die with you!"},
+        ["Kurzen Subchief"] = {"Subchief, your rank means nothing in death!",
+                               "The jungle reclaims its own, and you are no exception!"},
+        ["Kurzen Witch Doctor"] = {"Your mind tricks are child's play!",
+                                   "Witch Doctor, your illusions shatter before reality!"},
+        ["Bloodsail Swashbuckler"] = {"Your swashbuckling ends with a splash!",
+                                      "Pirate, your treasure is your downfall!"},
+        ["Bloodsail Sea Dog"] = {"Sea Dog, the tides have turned against you!", "Your bark is worse than your bite!"},
+        ["Bloodsail Elder Magus"] = {"Elder Magus, your ancient spells are outdated!",
+                                     "Magic can't save you from the blade!"},
+        ["Bloodsail Deckhand"] = {"Deckhand, your ship is lost!", "Bloodsail, I’ll drown your dreams!"},
+        ["Venture Co. Mercenary"] = {"Mercenary, your contract ends in blood!", "Profit won't protect you now!"},
+        ["Venture Co. Enforcer"] = {"Enforcer, your authority is meaningless here!", "The jungle enforces its own laws!"},
+        ["Venture Co. Strip Miner"] = {"Strip Miner, you've stripped your last vein!",
+                                       "The earth cries out, and I answer!"},
+        ["Zanzil Witch Doctor"] = {"Your undead minions falter before true life!",
+                                   "Witch Doctor, your necromancy ends now!"},
+        ["Zanzil Zombie"] = {"Back to the grave with you!", "The dead should rest, not roam!"},
+        ["Arena Battler"] = {"Your prowess is tested and found wanting!", "The arena claims another victim!"},
+        ["King Bangalash"] = {"King of the jungle? I challenge your throne!", "Bangalash, your reign ends with my roar!"},
+        ["Sin'Dall"] = {"Sin'Dall, your stealth can't save you now!", "The shadows betray you, panther!"},
+        ["Tethis"] = {"Tethis, your claws meet their match!", "The hunt ends with your fall!"},
+        ["Tsul'Kalu"] = {"Tsul'Kalu, your legend ends here!", "The earth trembles, not for you, but against you!"},
+        ["__event__"] = {"The dense canopy of Stranglethorn shudders with our triumphant cries!",
+                         "From the depths of the jungle to the peaks of its trees, our victory echoes!",
+                         "The molten sun and jungle drums sing of battle — and we answer!",
+                         "The spirits of the Vale awaken, stirred by the might of our conquest!",
+                         "In the heart of Stranglethorn, our legacy is carved with blade and roar!"}
     },
+
     ["Warsong Gulch"] = {
-      ["Silverwing Sentinel"] = {
-        "Sentinel, your flag won't save you!",
-        "Silverwing falls beneath my shout!"
-      },
-      ["Warsong Outrider"] = {
-        "For the Horde, ride them down!",
-        "Outrider, let our warcry guide you!"
-      },
-      ["Alliance Flag Carrier"] = {
-        "Your banner drops at my feet!",
-        "I'll tear that flag from your hands!"
-      },
-      ["Horde Flag Carrier"] = {
-        "Carry our glory to victory!",
-        "Horde flag held high, we conquer!"
-      },
-      ["__event__"] = {
-        "The gulch rings with battle fury!",
-        "Flags fall before the might of the Horde!"
-      }
+        ["Silverwing Sentinel"] = {"Sentinel, your flag won't save you!", "Silverwing falls beneath my shout!"},
+        ["Warsong Outrider"] = {"For the Horde, ride them down!", "Outrider, let our warcry guide you!"},
+        ["Alliance Flag Carrier"] = {"Your banner drops at my feet!", "I'll tear that flag from your hands!"},
+        ["Horde Flag Carrier"] = {"Carry our glory to victory!", "Horde flag held high, we conquer!"},
+        ["__event__"] = {"The gulch rings with battle fury!", "Flags fall before the might of the Horde!"}
     },
     ["Alterac Valley"] = {
-      ["Vanndar Stormpike"] = {
-        "Stormpike, your fortress crumbles!",
-        "I'll bring your banner to its knees!"
-      },
-      ["Stormpike Commander"] = {
-        "Commander, your troops falter!",
-        "Stormpike ranks break before us!"
-      },
-      ["Stormpike Lieutenant"] = {
-        "Lieutenant, prepare to meet defeat!",
-        "Your lines thin with every shout!"
-      },
-      ["Drek'Thar"] = {
-        "Frostwolf leads the charge!",
-        "For Drek'Thar and the Horde!"
-      },
-      ["Frostwolf Commander"] = {
-        "Commander, hold strong for the clan!",
-        "Frostwolf fangs tear through the enemy!"
-      },
-      ["Frostwolf Lieutenant"] = {
-        "Lieutenant, show them no mercy!",
-        "Horde blood runs hot in Alterac!"
-      },
-      ["__event__"] = {
-        "The valley quakes with clashing warcries!",
-        "Every rank shall know our fury!"
-      }
+        -- Alliance Boss
+        ["Vanndar Stormpike"] = {"Stormpike, your fortress crumbles beneath our might!",
+                                 "Vanndar, your reign ends as the Horde claims victory!"},
+
+        -- Horde Boss
+        ["Drek'Thar"] = {"Frostwolf, I fight in your name — now rise and crush them!",
+                         "Drek'Thar, the storm is ours to unleash!"},
+
+        -- Captains
+        ["Captain Balinda Stonehearth"] = {"Balinda, your frost melts before our rage!",
+                                           "Stonehearth will fall like ice in fire!"},
+        ["Captain Galvangar"] = {"Galvangar, even ice cracks under enough fury!",
+                                 "Frostwolf strength breaks all resistance!"},
+
+        -- Stormpike Lieutenants
+        ["Lieutenant Largent"] = {"Largent, your rank won’t shield you from defeat!",
+                                  "Another lieutenant ready to fall!"},
+        ["Lieutenant Grummus"] = {"Grummus, brace yourself — the Horde has come!",
+                                  "Steel breaks, just like your defense!"},
+        ["Lieutenant Lewis"] = {"Lewis, your title is just a delay to your end!", "Fall in line — or fall forever!"},
+
+        -- Frostwolf Lieutenants
+        ["Lieutenant Haggerdin"] = {"Haggerdin, make them regret setting foot in our snow!", "Show them Frostwolf fury!"},
+        ["Lieutenant Murp"] = {"Murp, your axe thirsts — let it drink deep!", "Strike now, and strike loud!"},
+        ["Lieutenant Spencer"] = {"Spencer, your howl leads the charge!", "This mountain answers to Frostwolf warcries!"},
+
+        -- Stormpike Commanders
+        ["Commander Duffy"] = {"Duffy, commander of cowards!", "Even your orders can't save you now!"},
+        ["Commander Karl Philips"] = {"Philips, your command ends in surrender!", "You’ll salute defeat today!"},
+        ["Commander Louis Philips"] = {"Louis, there's no escape in these mountains!",
+                                       "Feel the avalanche of the Horde!"},
+
+        -- Frostwolf Commanders
+        ["Commander Mulfort"] = {"Mulfort, time to command the battlefield — with blood!",
+                                 "Hold the ridge! Let them know the Horde never yields!"},
+        ["Commander Mortimer"] = {"Mortimer, your axe swings like thunder!",
+                                  "Your shield is the wall that holds this mountain!"},
+        ["Commander Karl"] = {"Karl, lead us to glorious conquest!", "Your strength inspires the Frostwolf!"},
+
+        -- Zone Event
+        ["__event__"] = {"The snows of Alterac run red with the fury of battle!",
+                         "Every peak echoes our cry — victory or death!",
+                         "Axes clash and banners fall — the valley will remember us!",
+                         "The storm of war howls through Alterac, and we are its voice!"}
     },
     ["Arathi Basin"] = {
-      ["Defiler Grunt"] = {
-        "Grunt, seize the resource nodes!",
-        "Defilers claim this land in blood!"
-      },
-      ["Defiler Captain"] = {
-        "Captain, drive them from the basin!",
-        "Arathi belongs to the Horde!"
-      },
-      ["Arathor Guardsman"] = {
-        "Your guard breaks under our strength!",
-        "Arathor's hope ends here!"
-      },
-      ["Arathor Captain"] = {
-        "Captain, your forces falter!",
-        "The Basin slips from your grasp!"
-      },
-      ["__event__"] = {
-        "Banners rise and fall to our cries!",
-        "Arathi Basin echoes with Horde victory!"
-      }
+        ["Defiler Grunt"] = {"Grunt, seize the resource nodes!", "Defilers claim this land in blood!"},
+        ["Defiler Captain"] = {"Captain, drive them from the basin!", "Arathi belongs to the Horde!"},
+        ["Arathor Guardsman"] = {"Your guard breaks under our strength!", "Arathor's hope ends here!"},
+        ["Arathor Captain"] = {"Captain, your forces falter!", "The Basin slips from your grasp!"},
+        ["__event__"] = {"Banners rise and fall to our cries!", "Arathi Basin echoes with Horde victory!"}
+    },
+    ["Silithus"] = {
+        ["Twilight's Hammer Cultist"] = {"Your cult crumbles before the Horde!", "Twilight's end is nigh!"},
+        ["Silithid Swarmer"] = {"Swarmer, your hive falls silent!", "I'll crush your swarm beneath my boot!"},
+        ["Anubisath Defender"] = {"Defender, your stone shatters!", "Anubisath, I break your ancient curse!"},
+        ["Cenarion Circle Druid"] = {"Circle, your nature bends to our will!", "Cenarion, feel the might of the Horde!"},
+        ["__event__"] = {"The sands of Silithus roar with our might!", "Even the desert trembles at our battle cry!"}
+    },
+    ["Thousand Needles"] = {
+        ["Racing Champion"] = {"Champion, your speed is nothing!", "I'll leave you in the dust of my victory!"},
+        ["Goblin Mechanic"] = {"Mechanic, your gadgets can't save you!", "I'll outpace your machines any day!"},
+        ["Gnome Racer"] = {"Gnome, your engines sputter before my might!", "I'll lap you with the roar of the Horde!"},
+        ["Horde Racer"] = {"Horde speed is unmatched!", "Raceway, remember the might of the Horde!"},
+        ["Zuzubee"] = {"Zuzubee, your wheels won't carry you far!", "I'll outshine you on this track!"},
+        ["__event__"] = {"The raceway roars with our engines!", "Mirage Raceway remembers the Horde's speed!"}
+    },
+    ["Tanaris"] = {
+        ["Southsea Pirate"] = {"I'll sink your dreams with my blade!", "Your ship’s gone — and you're next!"},
+        ["Southsea Swashbuckler"] = {"You call that swordplay?", "Swashbuckle this, landlubber!"},
+        ["Southsea Brigand"] = {"The only loot here is your defeat!", "Brigandry ends with my axe!"},
+        ["Southsea Cannoneer"] = {"Boom this, powder monkey!", "Your fuse fizzles before my shout!"},
+        ["Wastewander Rogue"] = {"The desert hides you, but I find you!", "Sand won't save you from steel!"},
+        ["Wastewander Bandit"] = {"You're no match for a Horde warrior!", "I'll bury you in the sands!"},
+        ["Wastewander Thief"] = {"You steal life? I take yours!", "Thief, meet justice — Horde style!"},
+        ["Wastewander Shadow Mage"] = {"Your shadows cower before me!", "Magic won’t save you now, coward!"},
+        ["Wastewander Assassin"] = {"You sneak, I strike!", "I’ll end your desert ambushes!"},
+        ["Hired Assassin"] = {"Your contract ends in blood!", "Who's paying for your failure?"},
+        ["Gadgetzan Bruiser"] = {"Tinkertown’s guards can’t stop me!", "I’ll flatten that goblin pride!"},
+        ["Zul'Farrak Zombie"] = {"Back to the grave, sandwalker!", "Even in undeath, you fall to the Horde!"},
+        ["Zul'Farrak Troll"] = {"Troll blood runs hot — but not for long!", "Zul’Farrak screams with your defeat!"},
+        ["__event__"] = {"Tanaris trembles beneath our warcries!", "The sandstorms carry our voice — and our fury!"}
     }
 }
