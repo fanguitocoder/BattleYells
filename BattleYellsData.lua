@@ -1,4 +1,70 @@
 BattleYells = {
+    ["Orgrimmar"] = {
+        ["Thrall"] = {
+            "Warchief! My axe is ever ready!",
+            "Thrall, your vision for the Horde guides my blade!",
+            "From Frostwolf to Warchief — your path inspires us all!"
+        },
+        ["Overlord Runthak"] = {
+            "Overlord Runthak, the gates are strong, but my warcry is stronger!",
+            "The city stands because of your vigilance, Runthak!"
+        },
+        ["Gamon"] = {
+            "Gamon! You again?! Stand down or stand proud!",
+            "Gamon, legend or nuisance — today you fight beside us!",
+            "Gamon fights?! It truly is a day of glory!"
+        },
+        ["Vol'jin"] = {
+            "Vol'jin, your spirit guards the shadows still!",
+            "Troll wisdom flows through the veins of the Horde!"
+        },
+        ["Eitrigg"] = {
+            "Eitrigg, keeper of honor, I salute you!",
+            "Old blood, strong steel — Eitrigg leads with dignity!"
+        },
+        ["Garrosh Hellscream"] = {
+            "Garrosh, your strength carved this city’s bones!",
+            "Let no one forget Hellscream’s fury forged these walls!"
+        },
+        ["Sauranok the Mystic"] = {
+            "Mystics stir in the Drag — let arcane fire serve the Horde!",
+            "Sauranok, weave your magic into our war drums!"
+        },
+        ["Auctioneer Thathung"] = {
+            "Thathung! May your trade favor Horde warriors!",
+            "Only fools outbid the Horde in its own house!"
+        },
+        ["Kiro"] = {
+            "Kiro, the Horde welcomes your clever strength!",
+            "Even vulpera find home and honor in Orgrimmar!"
+        },
+        ["__event__"] = {
+            "The roar of Orgrimmar rises with mine!",
+            "Steel sings in the city of warriors!",
+            "From Cleft of Shadow to Valley of Strength — we are united!",
+            "Orgrimmar, the heart of the Horde, beats loud today!",
+            "With every breath in these streets, war draws closer!",
+            "The Horde doesn’t sleep — it sharpens its blades at night!",
+            "Our enemies fear us — because we *are* Orgrimmar!",
+            "Orgrimmar stands tall and unbroken!",
+            "Let the drums of war echo through these walls!",
+            "Honor to the Warchief, glory to the Horde!",
+            "Our axes are sharp, our spirits sharper!",
+            "If the Alliance dares enter these gates, they meet fury!",
+            "The anvil of Orgrimmar forges warriors, not cowards!",
+            "Every stone of this city is carved with the blood of heroes!",
+            "Rise, warriors of the Horde — battle awaits beyond the gates!",
+            "The banners fly high. Our pride, higher still!",
+            "They say the Alliance spies walk among us — let them see our strength!",
+            "No quarter for those who threaten the Horde!",
+            "Thrall's dream lives on — and we carry it with steel!",
+            "The Horde prepares — for battle, for honor, for legacy!",
+            "War is not coming — it’s already here!",
+            "This is no marketplace — this is the fortress of legends!",
+            "From Valley of Wisdom to Valley of Strength — we stand as one!",
+            "Our ancestors smile on us from the peaks of Durotar!"
+        }
+    },
     ["Tirisfal Glades"] = {
         ["Scarlet Convert"] = {"Your faith won't shield you from undeath!", "Scarlet fool, the dead do not forget!"},
         ["Wretched Ghoul"] = {"Back to the grave, rotting husk!", "Your stench offends even the Scourge!"},
