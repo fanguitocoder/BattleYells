@@ -625,57 +625,79 @@ BattleYells = {
         ["__event__"] = {"Icecrown itself trembles at our shout!", "From rampart to throne, victory is ours!"}
     },
     ["Stranglethorn Vale"] = {
-        -- Bloodsail
+        -- Bloodsail Pirates
         ["Bloodsail Raider"] = {"Your pirate days are over!", "Bloodsail, I’ll send you to the deep!"},
-        ["Bloodsail Swashbuckler"] = {"Your flair won’t save you!", "Steel sings louder than swagger!"},
-        ["Bloodsail Deckhand"] = {"Deckhand, back to swabbing the afterlife!", "You’ll swab the decks in hell!"},
-        ["Bloodsail Sea Dog"] = {"Sea Dog, I sink your bark!", "This is the end of your voyage!"},
-        ["Bloodsail Warlock"] = {"Your hexes fail before the Horde!", "I'll silence your soul forever!"},
-        ["Bloodsail Shadow Hunter"] = {"Shadow Hunter, your curse dies with you!", "Voodoo can't stop victory!"},
+        ["Bloodsail Swashbuckler"] = {"Steel sings louder than swagger!", "Your blades fall silent now!"},
+        ["Bloodsail Deckhand"] = {"Deckhand, swab the afterlife!", "You'll swab decks in hell!"},
+        ["Bloodsail Sea Dog"] = {"Sea Dog, your voyage ends here!", "I sink your bark and your spirit!"},
+        ["Bloodsail Warlock"] = {"Your hexes die in my presence!", "Dark soul, I silence you!"},
+        ["Bloodsail Shadow Hunter"] = {"Your curses crumble before me!", "Voodoo can't stop my steel!"},
+        ["Bloodsail Elder Magus"] = {"Elder Magus, your spells crack!", "Your magic falters now!"},
 
         -- Venture Co.
-        ["Venture Co. Enforcer"] = {"Your greed built nothing but your grave!",
-                                    "I’ll break your machines and your bones!"},
-        ["Venture Co. Geologist"] = {"Even stones weep for your fate!", "No gold is worth this pain!"},
-        ["Venture Co. Surveyor"] = {"Survey this—defeat!", "Your maps won’t guide you out of this!"},
-        ["Venture Co. Strip Miner"] = {"You’ve mined your last vein!", "The jungle reclaims all things!"},
-        ["Venture Co. Engineer"] = {"Your inventions fail you now!", "Let me disassemble your ego!"},
+        ["Venture Co. Enforcer"] = {"Greed built your grave!", "Your machines grind to dust!"},
+        ["Venture Co. Geologist"] = {"Even stones weep for you!", "No gold can save your corpse!"},
+        ["Venture Co. Surveyor"] = {"Survey this — it's your end!", "Your maps lie in your fault!"},
+        ["Venture Co. Strip Miner"] = {"Last vein, last breath!", "The jungle reclaims you!"},
+        ["Venture Co. Engineer"] = {"Gadgets fail in war!", "I disassemble your hubris!"},
+        ["Venture Co. Buccaneer"] = {"Buccaneer, your crew sinks now!", "Sea-faring thieves drown!"},
+        ["Venture Co. Miner"] = {"Miner, your pick finds no ore but defeat!", "Your veins run dry with dread!"},
 
-        -- Kurzen's Camp
-        ["Kurzen Commando"] = {"Commando, fall in line—face defeat!", "Your rebellion ends in blood!"},
-        ["Kurzen Jungle Fighter"] = {"This jungle belongs to the Horde!", "Kurzen will not be remembered!"},
-        ["Kurzen Medicine Man"] = {"No brew saves you now!", "Your magic is powerless here!"},
-        ["Kurzen Witch Doctor"] = {"Dark spirits abandon you!", "Your rituals die with you!"},
+        -- Kurzen’s Camp
+        ["Kurzen Commando"] = {"Commando, your rebellion bleeds out!", "Face defeat in the wild!"},
+        ["Kurzen Jungle Fighter"] = {"Jungle's mine, not yours!", "Kurzen falls today!"},
+        ["Kurzen Medicine Man"] = {"Your brew burns only you!", "No potion saves your fate!"},
+        ["Kurzen Witch Doctor"] = {"Spirits flee your presence!", "Your rituals end in ruin!"},
+        ["Kurzen Subchief"] = {"Your rank means nothing!", "Jungle reclaims itself!"},
+        ["Kurzen Elite"] = {"Elite crumbles before might!", "Your false pride fails!"},
+        ["Chief Anders"] = {"Anders, your command falters!", "Kurzen falls with leadership!"},
+        ["Chief Gaulus"] = {"Gaulus, your war ends here!", "Your tribe scatters in fear!"},
+        ["Chief Esquivel"] = {"Esquivel, your blade dulls now!", "Your guard breaks before me!"},
+        ["Chief Miranda"] = {"Miranda, your watch ends now!", "Your shield shatters!"},
 
-        -- Gurubashi Trolls (not in ZG)
-        ["Gurubashi Berserker"] = {"Your rage is no match for mine!", "Berserker, bleed for your gods!"},
-        ["Gurubashi Warrior"] = {"You fight for ruins—I fight for glory!", "Let your ancestors watch you fall!"},
-        ["Gurubashi Shadow Hunter"] = {"Your shadows scatter in the sunlight!", "Shadow Hunter, I see your every move!"},
+        -- Gurubashi Trolls
+        ["Gurubashi Berserker"] = {"Your fury pales to mine!", "Berserker, bleed in my name!"},
+        ["Gurubashi Champion"] = {"Champion? You fall here!", "Your crown becomes my trophy!"},
+        ["Gurubashi Headhunter"] = {"Headhunter, your head is taken!", "I harvest your defeat!"},
+        ["Gurubashi Blood Drinker"] = {"Thirst ends in your blood!", "I quench my blade with you!"},
+        ["Gurubashi Blade Guard"] = {"Guard fails before me!", "Your ward becomes rubble!"},
+        ["Gurubashi Bat Rider"] = {"Your flight heads for ruin!", "Bat Rider crashes now!"},
 
-        -- Mosh’Ogg Ogres
-        ["Mosh'Ogg Brute"] = {"Brute force won’t save you!", "Mosh'Ogg, meet my sharpened reply!"},
-        ["Mosh'Ogg Mauler"] = {"Maul this!", "Your fists hit nothing but air!"},
-        ["Mosh'Ogg Spellcrafter"] = {"Even ogre spells can’t stop steel!", "Your magic stinks like your breath!"},
+        -- Mosh'Ogg Ogres
+        ["Mosh'Ogg Brute"] = {"Brute force fails now!", "Brute, meet cunning steel!"},
+        ["Mosh'Ogg Mauler"] = {"Mauler, know your end!", "Fists break on my shield!"},
+        ["Mosh'Ogg Warmonger"] = {"Warmonger, war ends today!", "Your bloodlust breaks here!"},
+        ["Mosh'Ogg Spellcrafter"] = {"Ogre magic can't stay me!", "Your brew rots on your lips!"},
 
         -- Skullsplitter Trolls
-        ["Skullsplitter Scout"] = {"You’ve scouted your death!", "Skullsplitter, your tribe is broken!"},
-        ["Skullsplitter Hunter"] = {"I’m the hunter now!", "Your arrows miss fate’s warning!"},
-        ["Skullsplitter Mystic"] = {"Your voodoo crumbles before me!", "Even your gods abandon you!"},
-        ["Skullsplitter Headhunter"] = {"You wanted a head? Take yours back!", "I’ll send your head rolling home!"},
+        ["Skullsplitter Scout"] = {"Scout into death!", "Your tribe fractures!"},
+        ["Skullsplitter Hunter"] = {"Hunter, your prey hunts you!", "Your arrow misses fate!"},
+        ["Skullsplitter Mystic"] = {"Mystic, your voodoo fails!", "Even ghosts fear me!"},
+        ["Skullsplitter Headhunter"] = {"Headhunter, your head is mine!", "I claim your trophy!"},
+        ["Skullsplitter Axe Thrower"] = {"Your axes fly into dust!", "Axes betray your head now!"},
+        ["Skullsplitter Warrior"] = {"Warrior, your tribe bleeds!", "Your skull cracks in two!"},
+        ["Skullsplitter Shaman"] = {"Your spirits fail you!", "Your totems break in fear!"},
 
-        -- Nesingwary’s Expedition (optional targets for flavor)
-        ["Barnil Stonepot"] = {"Stonepot, your hunt ends now!", "No trophy awaits you but defeat!"},
-        ["Hemet Nesingwary"] = {"Hunter becomes hunted, Hemet!", "This jungle no longer answers to you!"},
+        -- Rare Quest NPCs
+        ["King Bangalash"] = {"Bangalash, your reign dies here!", "Your crown shatters with your roar!"},
+        ["Bhag'thera"] = {"Bhag'thera, your fang meets steel!", "Behold the panther's fall!"},
+        ["Gorlash"] = {"Gorlash, your giant guffaws end now!", "Your chest is mine and so is your head!"},
+        ["Negolash"] = {"Negolash, your cutlass cuts your throat!", "Your blade betrays you!"},
+        ["Mok'rash the Cleaver"] = {"Mok'rash, your cleaver cleaves nothing but air!",
+                                    "I'll carve your defeat on your carcass!"},
 
         -- Others
-        ["Lashtail Raptor Trainer"] = {"Your beast flees with your fear!", "I’ll tame both beast and master!"},
-        ["Zanzil Zombie"] = {"Rot where you stand!", "Even undeath can't save you from pain!"},
+        ["Lashtail Raptor Trainer"] = {"I tame both beast and master!", "Your bird falls before my might!"},
+        ["Zanzil Zombie"] = {"Rot in miserable undeath!", "Your decay fails to stop me!"},
+        ["Zanzil Necromancer"] = {"Necromancy crumbles here!", "Raise no dead from my wrath!"},
+        ["Jungle Stalker"] = {"Stalker, your prey is found!", "I carve through your hide!"},
 
         -- Event Yells
-        ["__event__"] = {"Stranglethorn’s vines curl in fear of us!",
-                         "The cries of trolls, pirates, and ogres thunder beneath the Horde!",
-                         "Axes flash and warcries rise—Stranglethorn belongs to the bold!",
-                         "Even the jungle knows the Horde walks here!"}
+        ["__event__"] = {"Stranglethorn trembles beneath the Horde's might!",
+                         "From pirate decks to troll altars — the jungle bleeds!",
+                         "No tribe, no beast, no soul escapes this roar!",
+                         "Axes flash, arrows fly — jungle bows to the bold!",
+                         "Even the rare beasts bow to this shout!"}
     },
 
     ["Warsong Gulch"] = {
