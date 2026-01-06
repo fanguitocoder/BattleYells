@@ -20,5 +20,6 @@ SlashCmdList["YELLSHORT"] = function()
     return
   end
 
+  -- SendChatMessage(msg, "RAID_WARNING")
   SendChatMessage(msg, "YELL")
 end

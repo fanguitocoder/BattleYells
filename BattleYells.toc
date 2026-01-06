@@ -1,6 +1,13 @@
-## Interface: 11400
+## Interface: 11404
 ## Title: BattleYells
-## Notes: Slash-command-based battle yells for Classic
-## Author: You
-BattleYellsData.lua
+## Version: 1.0.0
+## Author: FanguitoCoder
+## Notes: Dynamic battle cries for NPCs, zones, dungeons, and bosses.
+## SavedVariables: BattleYellsDB
+## DefaultState: Enabled
+## LoadOnDemand: 0
+
+# Core Files
 BattleYells.lua
+BattleYellsData.lua
+

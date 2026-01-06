@@ -1,4 +1,266 @@
 BattleYells = {
+    ["Badlands"] = {
+        -- Enemies and rares
+        ["Stonevault Rockchewer"] = {
+            "Rockchewer, I grind your teeth with thunder!",
+            "You gnaw on stone? Chew on my steel!"
+        },
+        ["Dustbelcher Mauler"] = {
+            "Mauler, your fists meet a sharper end!",
+            "Your tribe scatters before the Horde!"
+        },
+        ["Dark Iron Geologist"] = {
+            "Geologist, I shatter your stones and your skull!",
+            "No crystal saves you now, Dark Iron!"
+        },
+        ["Dark Iron Steamsmith"] = {
+            "Your steam hisses like a frightened goblin!",
+            "Steamsmith, your machines melt in battle!"
+        },
+        ["Greater Obsidian Elemental"] = {
+            "I fracture your flawless hide!",
+            "Even obsidian cracks under true fury!"
+        },
+        ["Scalding Whelp"] = {
+            "Whelp, your flames flicker and die!",
+            "Little dragon, meet your last roar!"
+        },
+        ["Rogue Vale Screecher"] = {
+            "You screech? I roar louder!",
+            "Wings tear, bones snap — so shall you!"
+        },
+        ["Anathemus"] = {
+            "Anathemus! Giant, your steps end here!",
+            "Even titans tremble before the Horde!"
+        },
+        ["Broken Tooth"] = {
+            "Your tooth is not the only thing broken!",
+            "I tame you with rage and fire!"
+        },
+        ["Barnabus"] = {
+            "Barnabus, today the hunter is hunted!",
+            "Big lizard, bigger fall!"
+        },
+        ["Zaricotl"] = {
+            "Zaricotl, the sky won't carry your corpse!",
+            "Winds falter — and so do you!"
+        },
+    
+        -- Horde NPCs in Kargath
+        ["Warlord Goretooth"] = {
+            "Warlord Goretooth, I await your orders with steel in hand!",
+            "Goretooth, let our blades write the next chapter of conquest!"
+        },
+        ["Thal'trak Proudtusk"] = {
+            "Proudtusk, your strength inspires the young and the bold!",
+            "Tusk and steel — the Horde endures!"
+        },
+        ["Felgur Twocuts"] = {
+            "Felgur! Sharpen one blade for victory, the other for glory!",
+            "Your axes sing, and the Badlands listens!"
+        },
+        ["Dran Droffers"] = {
+            "Dran, may your contracts lead us to fortune and fire!",
+            "Paper or not, your will moves mountains!"
+        },
+        ["Ragash"] = {
+            "Ragash, your loyalty guards the gates of Kargath!",
+            "No one breaches our walls while you stand!"
+        },
+        ["Grish Longrunner"] = {
+            "Grish, your stride spans empires — may it lead us to war!",
+            "Run far, run fierce, run Horde!"
+        },
+    
+        -- Global yells for Badlands
+        ["__event__"] = {
+            "The sands of Badlands quake beneath our march!",
+            "Drakes, dwarves, and dust — all fall the same!",
+            "The Horde carves new paths through old stone!",
+            "Badlands will remember the roar of our conquest!",
+            "From trogg caves to scorched peaks — we bring reckoning!",
+            "Let the echoes of war ring across Lethlor Ravine!",
+            "No dragon brood, no dwarf clan, no beast survives the Horde's fury!",
+            "Every crack in these lands echoes with our shout!",
+            "We are the storm in the silence of this desert!",
+            "The Horde comes not to dig — but to dominate!",
+            "Kargath stands strong — the spearhead of the Badlands!",
+            "Let the dust carry our roar across the Khaz Mountains!",
+            "Kargath's walls do not tremble — they command!"
+        }
+    },
+    
+    ["Stratholme"] = {
+        -- Scarlet Crusade side
+        ["Cannon Master Willey"] = {
+            "Willey, your cannons are no match for Horde steel!",
+            "I'll fire your own weapons in your memory, traitor!"
+        },
+        ["Archivist Galford"] = {
+            "Your books burn with your lies, Galford!",
+            "History ends here for you, Archivist!"
+        },
+        ["Balnazzar"] = {
+            "Dreadlord, your disguise dies with you!",
+            "Balnazzar, I purge your corruption from this holy ground!"
+        },
+        ["Grand Crusader Dathrohan"] = {
+            "Your Crusade ends in ruin, Dathrohan!",
+            "You wear the light like a mask — I tear it off!"
+        },
+        ["Commander Malor"] = {
+            "Your sword breaks before my wrath, Malor!",
+            "Commander, fall in line — beneath my boots!"
+        },
+        ["Crimson Guardsman"] = {
+            "Your scarlet tabard bleeds for the last time!",
+            "The light abandons you today, Guardsman!"
+        },
+        ["Crimson Battle Mage"] = {
+            "Your fire fizzles in my storm!",
+            "Mage, your spells are but whispers to my roar!"
+        },
+        ["Crimson Inquisitor"] = {
+            "Inquisitor, who judges you now?",
+            "Your trials end in execution!"
+        },
+    
+        -- Scourge side
+        ["Baron Rivendare"] = {
+            "Baron, your horse will ride no more!",
+            "Rivendare! The dead will not ride tonight!"
+        },
+        ["Maleki the Pallid"] = {
+            "Pale death, meet red rage!",
+            "Maleki, I darken your crypt forever!"
+        },
+        ["Nerub'enkan"] = {
+            "Spider, I crush your web of death!",
+            "Nerub'enkan, I cut every thread you spin!"
+        },
+        ["Ramstein the Gorger"] = {
+            "Ramstein! You eat defeat today!",
+            "The only thing you're gorging on is my fury!"
+        },
+        ["Magistrate Barthilas"] = {
+            "Barthilas! You betrayed the living, now die with the dead!",
+            "You were once a man — now, just another corpse to burn!"
+        },
+        ["The Unforgiven"] = {
+            "Your sorrow ends in screams!",
+            "Unforgiven? I bring no mercy either!"
+        },
+        ["Skul"] = {
+            "Skul, your terror ends with my blade!",
+            "You haunt no more, specter!"
+        },
+        ["Hearthsinger Forresten"] = {
+            "Sing your last tune, Forresten!",
+            "Even the dead dance to the Horde's war drum!"
+        },
+    
+        ["__event__"] = {
+            "The streets of Stratholme run red once more!",
+            "From plague to fire — we cleanse it all in fury!",
+            "Both Scourge and Crusade fall before the Horde!",
+            "No stone of Stratholme stands unshaken by our cry!",
+            "Let the bells toll — they ring for the end of your reign!",
+            "The dead claw at the walls — but we burn through all!",
+            "Scarlet banners fall like autumn leaves!",
+            "We shout louder than the screams of the damned!",
+            "Horde steel silences the whispers of undeath!",
+            "Once proud, once cursed — Stratholme now remembers only defeat!"
+        }
+    },
+    
+    ["Hall of Blackhand"] = {
+        ["Scarshield Legionnaire"] = {
+            "Legionnaire, your guard ends in screams!",
+            "Scarshield steel bends beneath my fury!"
+        },
+        ["Scarshield Warlock"] = {
+            "Your fel fire fizzles before my might!",
+            "Warlock! Your shadows cower in my presence!"
+        },
+        ["Scarshield Spellbinder"] = {
+            "Your incantations won't stop my charge!",
+            "Spellbinder, I snap your will like a twig!"
+        },
+        ["Scarshield Officer"] = {
+            "Your rank won't save you, officer!",
+            "Orders crumble when faced with Horde steel!"
+        },
+        ["Scarshield Acolyte"] = {
+            "Your dark rituals end now, acolyte!",
+            "I tear your idols from these cursed halls!"
+        },
+        ["__event__"] = {
+            "The Hall of Blackhand is no longer your stronghold!",
+            "Scarshield scum, your fortress bleeds!",
+            "These halls echo with the roars of true warriors!",
+            "Steel clashes and the false dragonflight trembles!",
+            "The time of the Scarshield is over — this is the age of reckoning!",
+            "From molten forge to shadowed chamber — the Horde claims all!"
+        }
+    },
+    ["Upper Blackrock Spire"] = {
+        ["General Drakkisath"] = {
+            "Drakkisath, your reign ends beneath the Blackrock!",
+            "The general falls, and with him, the false dragon's dream!"
+        },
+        ["Gyth"] = {
+            "Your wings won't carry you out of this fight!",
+            "Gyth, even dragons fall to the Horde's fury!"
+        },
+        ["Warchief Rend Blackhand"] = {
+            "Rend, your claim to power is a lie!",
+            "The Horde remembers the true Warchief — not you!"
+        },
+        ["The Beast"] = {
+            "Beast? You're just prey with scales!",
+            "I'll tame your fire with blood and steel!"
+        },
+        ["Pyroguard Emberseer"] = {
+            "Your flames fizzle before my warcry!",
+            "Emberseer, your vision burns out now!"
+        },
+        ["Solakar Flamewreath"] = {
+            "Solakar, I'll unravel your flames and your fate!",
+            "Your fire is no match for Horde steel!"
+        },
+        ["Jed Runewatcher"] = {
+            "Runes won't save you from the axe!",
+            "Jed, your magic is dust before me!"
+        },
+        ["Goraluk Anvilcrack"] = {
+            "Goraluk, your forge crafts only failure!",
+            "I'll shatter your anvils and your arrogance!"
+        },
+        ["Quartermaster Zigris"] = {
+            "Zigris, your supplies belong to the Horde now!",
+            "Even quartermasters fall when war comes!"
+        },
+        ["Urok Doomhowl"] = {
+            "Doomhowl, I'll out-roar your name!",
+            "Your tribe ends here!"
+        },
+        ["Bannok Grimaxe"] = {
+            "Grimaxe, I'll show you sharper steel!",
+            "Axe to axe — I never lose!"
+        },
+        ["__event__"] = {
+            "The spire cracks beneath our might!",
+            "Blackrock trembles — the Horde rises!",
+            "Steel echoes through halls of betrayal!",
+            "Let Rend's lies be buried in these ashes!",
+            "From the embers of rebellion, the Horde claims victory!",
+            "No dragonspawn, no dark iron, no traitor can halt our charge!",
+            "Each yell here carves a mark in the mountain's bones!",
+            "The halls of Blackhand echo with the songs of conquest!",
+            "Warriors of the Horde, this fortress is ours by right and rage!"
+        }
+    },
+
     ["Orgrimmar"] = {
         ["Thrall"] = {"Warchief! My axe is ever ready!", "Thrall, your vision for the Horde guides my blade!",
                       "From Frostwolf to Warchief — your path inspires us all!"},
@@ -11,8 +273,8 @@ BattleYells = {
                        "Troll wisdom flows through the veins of the Horde!"},
         ["Eitrigg"] = {"Eitrigg, keeper of honor, I salute you!",
                        "Old blood, strong steel — Eitrigg leads with dignity!"},
-        ["Garrosh Hellscream"] = {"Garrosh, your strength carved this city’s bones!",
-                                  "Let no one forget Hellscream’s fury forged these walls!"},
+        ["Garrosh Hellscream"] = {"Garrosh, your strength carved this city's bones!",
+                                  "Let no one forget Hellscream's fury forged these walls!"},
         ["Sauranok the Mystic"] = {"Mystics stir in the Drag — let arcane fire serve the Horde!",
                                    "Sauranok, weave your magic into our war drums!"},
         ["Auctioneer Thathung"] = {"Thathung! May your trade favor Horde warriors!",
@@ -24,7 +286,7 @@ BattleYells = {
         ["Banker Komawa"] = {"Komawa, the strength of the Horde rests in your ledgers!",
                              "Keep the coffers full and the blades sharp!"},
         ["Orgrimmar Grunt"] = {"Grunt! Shoulder to shoulder, we hold this city!",
-                               "A Grunt's shield is Orgrimmar’s first wall!",
+                               "A Grunt's shield is Orgrimmar's first wall!",
                                "Grunt, your post honors the blood of the Horde!",
                                "Steel, sweat, and duty — the Grunt's creed!"},
         ["Kiro"] = {"Kiro, the Horde welcomes your clever strength!", "Even vulpera find home and honor in Orgrimmar!"},
@@ -39,7 +301,7 @@ BattleYells = {
                          "No quarter for those who threaten the Horde!",
                          "Thrall's dream lives on — and we carry it with steel!",
                          "The Horde prepares — for battle, for honor, for legacy!",
-                         "War is not coming — it’s already here!",
+                         "War is not coming — it's already here!",
                          "This is no marketplace — this is the fortress of legends!",
                          "From Valley of Wisdom to Valley of Strength — we stand as one!",
                          "Our ancestors smile on us from the peaks of Durotar!",
@@ -49,7 +311,7 @@ BattleYells = {
                          "From Cleft of Shadow to Valley of Strength — we are united!",
                          "Orgrimmar, the heart of the Horde, beats loud today!",
                          "With every breath in these streets, war draws closer!",
-                         "The Horde doesn’t sleep — it sharpens its blades at night!",
+                         "The Horde doesn't sleep — it sharpens its blades at night!",
                          "Our enemies fear us — because we *are* Orgrimmar!",
                          "Every yell echoes through the veins of this fortress!",
                          "In Orgrimmar, battle is a tradition, not an interruption!",
@@ -59,50 +321,50 @@ BattleYells = {
         ["Scarlet Convert"] = {"Your faith won't shield you from undeath!", "Scarlet fool, the dead do not forget!"},
         ["Wretched Ghoul"] = {"Back to the grave, rotting husk!", "Your stench offends even the Scourge!"},
         ["Duskbat"] = {"Bat or beast, I hunt all the same!", "Dark wings break under my might!"},
-        ["Rotting Dead"] = {"Rotting? I’ll make you fresh meat!", "Your flesh is ripe for the taking!"},
+        ["Rotting Dead"] = {"Rotting? I'll make you fresh meat!", "Your flesh is ripe for the taking!"},
         ["Tirisfal Bat"] = {"Bat, I am the hunter, not the hunted!", "Your wings are clipped by my blade!"},
-        ["Tirisfal Scavenger"] = {"Scavenger, I’ll take your life as easily as you take scraps!",
+        ["Tirisfal Scavenger"] = {"Scavenger, I'll take your life as easily as you take scraps!",
                                   "You scavenge no more — I am the predator!"},
-        ["Tirisfal Farmer"] = {"Farmer, your plow is no match for my axe!", "I’ll harvest your defeat!"},
-        ["Tirisfal Farmer's Dog"] = {"Dog, I’ll put you down like a rabid beast!",
+        ["Tirisfal Farmer"] = {"Farmer, your plow is no match for my axe!", "I'll harvest your defeat!"},
+        ["Tirisfal Farmer's Dog"] = {"Dog, I'll put you down like a rabid beast!",
                                      "Your bark is silenced by my blade!"},
         ["Tirisfal Ghost"] = {"Ghost, your wails are no match for my warcry!", "I send you back to the shadows!"},
         ["Tirisfal Spirit"] = {"Spirit, I banish you with my shout!", "Your hauntings end here!"},
-        ["Tirisfal Skeleton"] = {"Skeleton, your bones rattle in fear!", "I’ll crush you to dust!"},
-        ["Tirisfal Zombie"] = {"Zombie, I’ll put you back in the ground!", "Your flesh rots before my might!"},
-        ["Tirisfal Ghoul"] = {"Ghoul, I’ll feast on your remains!", "Your hunger is no match for my fury!"},
-        ["Tirisfal Abomination"] = {"Abomination, I’ll tear you limb from limb!",
+        ["Tirisfal Skeleton"] = {"Skeleton, your bones rattle in fear!", "I'll crush you to dust!"},
+        ["Tirisfal Zombie"] = {"Zombie, I'll put you back in the ground!", "Your flesh rots before my might!"},
+        ["Tirisfal Ghoul"] = {"Ghoul, I'll feast on your remains!", "Your hunger is no match for my fury!"},
+        ["Tirisfal Abomination"] = {"Abomination, I'll tear you limb from limb!",
                                     "Your stitches unravel before my might!"},
         ["Tirisfal Plaguehound"] = {"Plaguehound, your bite is no match for my blade!",
-                                    "I’ll cure you of your infection!"},
-        ["Tirisfal Darkhound"] = {"Darkhound, I’ll hunt you down like a beast!", "Your howl is silenced by my blade!"},
+                                    "I'll cure you of your infection!"},
+        ["Tirisfal Darkhound"] = {"Darkhound, I'll hunt you down like a beast!", "Your howl is silenced by my blade!"},
         ["Tirisfal Shadowcaster"] = {"Shadowcaster, your magic is no match for my might!",
-                                     "I’ll break your spells and your spirit!"},
-        ["Tirisfal Deathguard"] = {"Deathguard, your watch ends in defeat!", "I’ll break your shield and your spirit!"},
-        ["Tirisfal Plaguebringer"] = {"Plaguebringer, I’ll cleanse you with my fury!",
+                                     "I'll break your spells and your spirit!"},
+        ["Tirisfal Deathguard"] = {"Deathguard, your watch ends in defeat!", "I'll break your shield and your spirit!"},
+        ["Tirisfal Plaguebringer"] = {"Plaguebringer, I'll cleanse you with my fury!",
                                       "Your disease meets its end here!"},
-        ["Tirisfal Plaguebearer"] = {"Plaguebearer, I’ll bury you in the dirt!",
+        ["Tirisfal Plaguebearer"] = {"Plaguebearer, I'll bury you in the dirt!",
                                      "Your infection is no match for my strength!"},
-        ["Tirisfal Plaguewalker"] = {"Plaguewalker, I’ll trample you underfoot!", "Your steps falter before my might!"},
+        ["Tirisfal Plaguewalker"] = {"Plaguewalker, I'll trample you underfoot!", "Your steps falter before my might!"},
         ["Tirisfal Plaguehound Alpha"] = {"Alpha, your pack scatters before me!", "I am the true hunter of Tirisfal!"},
         ["Tirisfal Plaguehound Matriarch"] = {"Matriarch, your brood falls to my blade!",
-                                              "I’ll end your reign with a single strike!"},
+                                              "I'll end your reign with a single strike!"},
         ["__event__"] = {"Tirisfal moans with the echoes of battle!", "The dead rise — and so do we!"}
     },
 
     ["Silverpine Forest"] = {
-        ["Worgen Warrior"] = {"Worgen, your bite is worse than your bark!", "I’ll skin you and wear your fur!"},
-        ["Rotting Ghoul"] = {"Rotting? I’ll make you fresh meat!", "Your flesh is ripe for the taking!"},
-        ["Shadowfang Worg"] = {"Worg, I’ll hunt you down like a beast!", "Your howl is silenced by my blade!"},
-        ["Silverpine Sentinel"] = {"Sentinel, your watch ends in defeat!", "I’ll break your shield and your spirit!"},
+        ["Worgen Warrior"] = {"Worgen, your bite is worse than your bark!", "I'll skin you and wear your fur!"},
+        ["Rotting Ghoul"] = {"Rotting? I'll make you fresh meat!", "Your flesh is ripe for the taking!"},
+        ["Shadowfang Worg"] = {"Worg, I'll hunt you down like a beast!", "Your howl is silenced by my blade!"},
+        ["Silverpine Sentinel"] = {"Sentinel, your watch ends in defeat!", "I'll break your shield and your spirit!"},
         ["Silverpine Forest Wolf"] = {"Wolf, I am the hunter, not the hunted!", "Your pack scatters before my might!"},
-        ["Silverpine Forest Bear"] = {"Bear, I’ll crush you like a twig!", "Your roar is no match for my warcry!"},
+        ["Silverpine Forest Bear"] = {"Bear, I'll crush you like a twig!", "Your roar is no match for my warcry!"},
         ["__event__"] = {"Silverpine echoes with the clash of steel and howl of war!",
                          "The forest trembles under our battle cry!"}
     },
 
     ["Elwynn Forest"] = {
-        ["Defias Bandit"] = {"Your rebellion ends in Elwynn’s dirt!", "Defias, prepare to be defied!"},
+        ["Defias Bandit"] = {"Your rebellion ends in Elwynn's dirt!", "Defias, prepare to be defied!"},
         ["Defias Cutpurse"] = {"Cutpurse, your thievery meets its end!", "I reclaim what you've stolen with steel!"},
         ["Defias Ringleader"] = {"Ringleader, your circle breaks here!", "Your schemes unravel before my might!"},
         ["Kobold Miner"] = {"You no take candle — I take your life!", "Kobold, this mine is your tomb!"},
@@ -139,20 +401,20 @@ BattleYells = {
 
     ["Dun Morogh"] = {
         ["Frostmane Troll Whelp"] = {"Whelp, you picked the wrong snowbank!", "I warm myself with your defeat!"},
-        ["Rockjaw Trogg"] = {"Troggs tumble before me like pebbles!", "Your bones will heat Ironforge’s forge fires!"},
+        ["Rockjaw Trogg"] = {"Troggs tumble before me like pebbles!", "Your bones will heat Ironforge's forge fires!"},
         ["Winter Wolf"] = {"The cold bites, but I bite back harder!", "Wolf, I am your final winter!"},
-        ["Frostmane Troll"] = {"Troll, your frost melts before my fire!", "I’ll freeze your screams in the snow!"},
-        ["Frostmane Seer"] = {"Seer, your visions end in darkness!", "I’ll shatter your staff and your spirit!"},
+        ["Frostmane Troll"] = {"Troll, your frost melts before my fire!", "I'll freeze your screams in the snow!"},
+        ["Frostmane Seer"] = {"Seer, your visions end in darkness!", "I'll shatter your staff and your spirit!"},
         ["Frostmane Shadowcaster"] = {"Shadowcaster, I banish you to the void!", "Your magic is no match for my might!"},
-        ["Frostmane Headhunter"] = {"Headhunter, I’ll take yours first!", "Your hunt ends with my blade!"},
-        ["Frostmane Berserker"] = {"Berserker, your rage is nothing before my fury!", "I’ll break you like a twig!"},
-        ["Frostmane Troll Priest"] = {"Priest, your prayers go unanswered!", "I’ll silence your chants with steel!"},
+        ["Frostmane Headhunter"] = {"Headhunter, I'll take yours first!", "Your hunt ends with my blade!"},
+        ["Frostmane Berserker"] = {"Berserker, your rage is nothing before my fury!", "I'll break you like a twig!"},
+        ["Frostmane Troll Priest"] = {"Priest, your prayers go unanswered!", "I'll silence your chants with steel!"},
         ["Frostmane Troll Hunter"] = {"Hunter, I am the true predator here!", "Your arrows fall short of my might!"},
         ["__event__"] = {"Snow and blood mingle under my boots!", "Dun Morogh rings with the songs of war!"}
     },
 
     ["Teldrassil"] = {
-        ["Gnarlpine Ursa"] = {"Your claws won’t pierce my resolve!", "Ursa, your growl ends in silence!"},
+        ["Gnarlpine Ursa"] = {"Your claws won't pierce my resolve!", "Ursa, your growl ends in silence!"},
         ["Webwood Lurker"] = {"No shadows can hide you, spider!", "I cut through silk and shadow alike!"},
         ["Nightsaber"] = {"Cat of the night, meet fury by day!", "Even your elegance won't save you!"},
         ["__event__"] = {"The great boughs echo with cries of conquest!", "Teldrassil, bear witness to our might!"}
@@ -197,7 +459,7 @@ BattleYells = {
         ["Scorpid Worker"] = {"Scorpid, I snap your sting!", "Worker, your toil ends here!"},
         ["Venomtail Scorpid"] = {"Venomtail, your poison is weak!", "I crush your carapace beneath my boots!"},
         ["Dustwind Harpy"] = {"Harpy, your screech meets silence!", "I clip your filthy wings!"},
-        ["Dustwind Savage"] = {"Savage? I’ll show you savage!", "I outmatch your fury with steel!"},
+        ["Dustwind Savage"] = {"Savage? I'll show you savage!", "I outmatch your fury with steel!"},
         ["Kul Tiras Sailor"] = {"You sail into your doom!", "Kul Tiras will remember your defeat!"},
         ["Kul Tiras Marine"] = {"Marine, your shield is nothing!", "Your uniform will burn in the red sands!"},
         ["Razormane Quilboar"] = {"Quilboar, your tusks will line our trophies!", "Your tribe falls like dry thorns!"},
@@ -210,14 +472,14 @@ BattleYells = {
         ["Zalazane"] = {"Zalazane, your sorcery dies with you!", "No more hexes, no more lies!"},
         ["Minshina's Skull"] = {"Rest, spirit. I shall free your bones!", "Minshina, I honor you with victory!"},
         ["Gazz'uz"] = {"Gazz'uz, your demon tricks end now!", "I shatter your pact with shadow!"},
-        ["Lieutenant Benedict"] = {"Benedict, your plans sink with your ship!", "You’ll never leave Echo Isles alive!"},
+        ["Lieutenant Benedict"] = {"Benedict, your plans sink with your ship!", "You'll never leave Echo Isles alive!"},
         ["Sergeant Curtis"] = {"Curtis, your orders end in failure!", "No ranks save you now!"},
         ["__event__"] = {"The red earth of Durotar drinks victory!",
                          "From jagged cliffs to sea — Durotar stands proud!",
                          "Let the winds of Durotar carry our roar!", "No invader treads these lands unchallenged!"}
     },
     ["Ragefire Chasm"] = {
-        ["Taragaman the Hungerer"] = {"Your hunger ends here!", "I’ll feed you a meal of molten defeat, Taragaman!"},
+        ["Taragaman the Hungerer"] = {"Your hunger ends here!", "I'll feed you a meal of molten defeat, Taragaman!"},
         ["Bazzalan"] = {"I'll cut you down!", "Shadow or not, my blade finds you!"},
         ["Jergosh the Invoker"] = {"Your dark arts fail you!",
                                    "Begone, Invoker — my rage is stronger than your flames!"},
@@ -227,7 +489,7 @@ BattleYells = {
     ["Wailing Caverns"] = {
         ["Lady Anacondra"] = {"Fangs won't stop me!", "Serpents coil, but I strike true!"},
         ["Lord Cobrahn"] = {"I'll crush your serpentine schemes!", "Cobrahn, your venom is weak against my rage!"},
-        ["Lord Pythas"] = {"Feel the strike of the Horde!", "Your coils can’t contain my fury!"},
+        ["Lord Pythas"] = {"Feel the strike of the Horde!", "Your coils can't contain my fury!"},
         ["Kresh"] = {"I'll shatter that shell!", "Your carapace cracks before my blow!"},
         ["Skum"] = {"Thunder lizards fall the hardest!", "Your roar is nothing next to mine!"},
         ["Lord Serpentis"] = {"Your dreams die today!", "Wake up to defeat, Serpentis!"},
@@ -250,11 +512,11 @@ BattleYells = {
         ["Onyxia"] = {"Your reign ends in fire!", "Onyxia, feel the wrath of the Horde's champion!"},
         ["__event__"] = {"Dragons fear our battle cry!", "The broodmother shall hear our roar!"}
     },
-    ["Molten Core"] = {
+    ["The Molten Core"] = {
         ["Lucifron"] = {"Lucifron, your corruption burns in the fires you serve!",
                         "I cleanse your soul with war and wrath!"},
         ["Magmadar"] = {"Magmadar, beast of flame — your fangs shatter on my shield!",
-                        "I’ll leash your fury and bury it beneath the stone!"},
+                        "I'll leash your fury and bury it beneath the stone!"},
         ["Gehennas"] = {"Gehennas, your ashes will salt the lava!", "Your embers die in the wind of my rage!"},
         ["Garr"] = {"I scatter your shards across the deep!", "Garr, your binds unravel under Horde steel!"},
         ["Baron Geddon"] = {"Baron, I cast you back into the chaos that spawned you!",
@@ -268,12 +530,99 @@ BattleYells = {
                                   "You think yourself a master of fire and fear, but I bring a storm no flame can quell!"},
         ["Ragnaros"] = {"I walk willingly into the heart of fire — not to beg, but to conquer. Ragnaros, your reign ends here!",
                         "You rose from the depths to command the flames, but now you face a fury greater than your own. I bring the fall of Fire itself!"},
-        ["__event__"] = {"The air trembles with heat and hatred, yet we march forward, unburnt and unbent!",
-                         "We descend into the Firelord’s domain not as mortals, but as legends in the making!",
-                         "The molten veins of this mountain boil with rage, but our resolve burns hotter still!",
-                         "From ash to ember, from flame to fury — we carve our names into the walls of this inferno!",
-                         "Let the core remember: the day fire met steel, and steel did not yield!",
-                         "With every roar we cast into the lava, the fire weakens — and our legend grows!"}
+        ["__event__"] = {
+            -- The absolute very best random jokes in the history of mankind
+            "Why don't scientists trust atoms? Because they make up everything.",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+            "Why don't eggs tell jokes? They'd crack each other up.",
+            "I'm reading a book on anti-gravity. It's impossible to put down!",
+            "Why did the scarecrow win an award? Because he was outstanding in his field.",
+            "I used to hate facial hair, but then it grew on me.",
+            "Why don't skeletons fight each other? They don't have the guts.",
+            "I only know 25 letters of the alphabet. I don't know y.",
+            "Why can't your nose be 12 inches long? Because then it'd be a foot.",
+            "I used to play piano by ear, but now I use my hands.",
+            "Did you hear about the kidnapping at school? It's fine, he woke up.",
+            "I would tell you a joke about an elevator, but it's an uplifting experience.",
+            "I used to be a baker, but I couldn't make enough dough.",
+            "I told my computer I needed a break, and now it won't stop sending me cookies.",
+            "I used to be a banker, but I lost interest.",
+            "I tried to catch fog yesterday, but I mist.",
+            "Why don't programmers like nature? It has too many bugs.",
+            "I told my wife she should embrace her mistakes. She gave me a hug.",
+            "Want to hear a construction joke? Sorry, I'm still working on it.",
+            "Why did the math book look so sad? Because it had too many problems.",
+            "I'm on a seafood diet. I see food and I eat it.",
+            "Why don't oysters donate to charity? Because they're shellfish.",
+            "Why did the coffee file a police report? It got mugged.",
+            "Why did the bicycle fall over? Because it was two tired.",
+            "What do you call a fake noodle? An impasta.",
+            "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+            "What do you call a bear with no teeth? A gummy bear.",
+            "What do you call a sleeping bull? A bulldozer.",
+            "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+            "What do you call a factory that makes okay products? A satisfactory.",
+            "What do you call a nosy pepper? Jalapeño business.",
+            "Why don't we ever tell secrets on a farm? Because the potatoes have eyes and the corn has ears.",
+            "What do you call a cow with no legs? Ground beef.",
+            "Why did the tomato turn red? Because it saw the salad dressing.",
+            "What do you call a belt made of watches? A waist of time.",
+            "Why don't melons get married? Because they cantaloupe.",
+            "What do you call a snowman with a suntan? A puddle.",
+            "Why did the chicken cross the playground? To get to the other slide.",
+            "What do you call a bear in the rain? A drizzly bear.",
+            "Why did the cookie go to the doctor? Because it felt crummy.",
+            "What do you call a fish with no eyes? Fsh.",
+            "Why don't scientists trust stairs? Because they're always up to something.",
+            "What do you call a lazy kangaroo? A pouch potato.",
+            "Why did the picture go to jail? Because it was framed.",
+            "What do you call a cow that plays an instrument? A moo-sician.",
+            "What do you call a sleeping dinosaur? A dino-snore.",
+            "Why did the chicken go to the séance? To get to the other side.",
+            "What do you call a boomerang that doesn't come back? A stick.",
+            "What do you call a cow that can't make milk? An udder failure.",
+            "Why don't seagulls fly over the bay? Because then they'd be bagels.",
+            "What do you call a magic dog? A labracadabrador.",
+            "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+            "What do you call a pile of cats? A meowtain.",
+            "What do you call a deer with no eyes? No idea.",
+            "What do you call a deer with no eyes and no legs? Still no idea.",
+            "What do you call a cow that can't make milk? An udder failure.",
+            "Why don't seagulls fly over the bay? Because then they'd be bagels.",
+            "What do you call a magic dog? A labracadabrador.",
+            "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+            "What do you call a can opener that doesn't work? A can't opener.",
+            "Why don't scientists trust atoms? Because they make up everything.",
+            "What do you call a bear with no teeth? A gummy bear.",
+            "Why did the scarecrow win an award? Because he was outstanding in his field.",
+            "What do you call a fake noodle? An impasta.",
+            "Why did the bicycle fall over? Because it was two tired.",
+            "What do you call a sleeping bull? A bulldozer.",
+            "Why don't programmers like nature? It has too many bugs.",
+            "I'm reading a book on anti-gravity. It's impossible to put down!",
+            "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+            "What do you call a factory that makes okay products? A satisfactory.",
+            "What do you call a nosy pepper? Jalapeño business.",
+            "Why don't eggs tell jokes? They'd crack each other up.",
+            "I used to hate facial hair, but then it grew on me.",
+            "I only know 25 letters of the alphabet. I don't know y.",
+            "Why can't your nose be 12 inches long? Because then it'd be a foot.",
+            "I used to play piano by ear, but now I use my hands.",
+            "Did you hear about the kidnapping at school? It's fine, he woke up.",
+            "I would tell you a joke about an elevator, but it's an uplifting experience.",
+            "I used to be a baker, but I couldn't make enough dough.",
+            "I told my computer I needed a break, and now it won't stop sending me cookies.",
+            "I used to be a banker, but I lost interest.",
+            "I tried to catch fog yesterday, but I mist.",
+            "Why did the math book look so sad? Because it had too many problems.",
+            "I'm on a seafood diet. I see food and I eat it.",
+            "Why don't oysters donate to charity? Because they're shellfish.",
+            "Why did the coffee file a police report? It got mugged.",
+            "I told my wife she should embrace her mistakes. She gave me a hug.",
+            "Want to hear a construction joke? Sorry, I'm still working on it.",
+            "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised."
+        }
     },
     ["Zul'Gurub"] = {
         -- High Priests and Priestesses
@@ -300,7 +649,7 @@ BattleYells = {
         ["Gurubashi Axe Thrower"] = {"Missed me? Your last throw is your worst!",
                                      "I'll show you how the Horde throws down!"},
         ["Gurubashi Champion"] = {"Your champion bleeds today!", "I wear your title as a trophy!"},
-        ["Gurubashi Headhunter"] = {"Your head is safe no longer!", "Let’s see how *you* like being hunted!"},
+        ["Gurubashi Headhunter"] = {"Your head is safe no longer!", "Let's see how *you* like being hunted!"},
         ["Gurubashi Blood Drinker"] = {"Your thirst ends with your blood spilled!",
                                        "Blood Drinker, I quench your hunger with defeat!"},
         ["Gurubashi Bat Rider"] = {"Your flight ends in flames!", "Bat Rider, crash into oblivion!"},
@@ -321,11 +670,11 @@ BattleYells = {
 
         -- Event Yells
         ["__event__"] = {"The drums beat louder — it is the sound of your end!",
-                         "Jungle spirits, bear witness: the Horde conquers Zul’Gurub!",
+                         "Jungle spirits, bear witness: the Horde conquers Zul'Gurub!",
                          "With every shout, we break a curse! With every swing, a god falls!",
                          "Gurubashi blood runs down the vines today!",
                          "The old gods watch from the void — and tremble at our fury!",
-                         "Zul’Gurub quakes beneath the Horde’s roar — no shrine stands, no soul untouched!",
+                         "Zul'Gurub quakes beneath the Horde's roar — no shrine stands, no soul untouched!",
                          "The jungle weeps — for its gods, its champions, and its silence are shattered!"}
     },
 
@@ -337,10 +686,10 @@ BattleYells = {
                                        "Your soul is fire — turn it against your master!",
                                        "I free you with flame and steel, brother!"},
         ["Broodlord Lashlayer"] = {"I break broods and butcher their masters!",
-                                   "Lashlayer, your children wail for mercy you won’t get!",
+                                   "Lashlayer, your children wail for mercy you won't get!",
                                    "Your throne of scales crumbles beneath me!"},
         ["Firemaw"] = {"Firemaw, your breath wheezes in my shadow!",
-                       "I’ll snuff your flame and forge my victory from your bones!",
+                       "I'll snuff your flame and forge my victory from your bones!",
                        "Your inferno is but a spark before the storm!"},
         ["Ebonroc"] = {"You cling to darkness — I tear it from your wings!",
                        "Ebonroc, I hunt in shadows too. And I never miss.", "You are not immortal, only forgotten!"},
@@ -389,7 +738,7 @@ BattleYells = {
     },
     ["Scarlet Monastery"] = {
         ["High Inquisitor Whitemane"] = {"Whitemane, no prayer can save you from this fury!",
-                                         "Wake the dead all you want — I’ll put them down again!"},
+                                         "Wake the dead all you want — I'll put them down again!"},
         ["Scarlet Commander Mograine"] = {"Mograine, your faith dies today!",
                                           "Steel speaks louder than sermons, Commander!"},
         ["Herod"] = {"Herod, your spin ends in silence!", "You call yourself a Champion — I call you dead weight!"},
@@ -397,7 +746,7 @@ BattleYells = {
         ["Houndmaster Loksey"] = {"Loksey, I leash your mutts and your madness!", "Your hounds whimper at my warcry!"},
         ["Interrogator Vishas"] = {"Vishas, feel what true pain is!", "No rack or chain can match my fury!"},
         ["Bloodmage Thalnos"] = {"Thalnos, your blood magic boils in your veins!",
-                                 "I’ll scatter your bones across these crypts!"},
+                                 "I'll scatter your bones across these crypts!"},
         ["Azshir the Sleepless"] = {"Azshir, rest comes at last — by force!", "I break your curse with one cry!"},
         ["Fallen Champion"] = {"Champion? You fell for a reason!", "I bury your pride with your corpse!"},
         ["Ironspine"] = {"Ironspine, your bones creak before my shout!", "Back to the grave with you, clatterbag!"},
@@ -421,12 +770,12 @@ BattleYells = {
         ["Baron Ashbury"] = {"Ashbury, your necromancy ends in ashes!", "Your barony ends with a blade to the heart!"},
         ["Baron Silverlaine"] = {"Silverlaine, your howls go unanswered!", "I banish your ghost to the void!"},
         ["Commander Springvale"] = {"Springvale, you defend a lost cause!", "Your valor dies with your undead shell!"},
-        ["Odo the Blindwatcher"] = {"Odo, your blindness won’t save you!", "Even the blind see your doom!"},
+        ["Odo the Blindwatcher"] = {"Odo, your blindness won't save you!", "Even the blind see your doom!"},
         ["Fenrus the Devourer"] = {"Fenrus, I chain the beast within!", "Devour this, mutt!"},
         ["Wolf Master Nandos"] = {"Nandos, your pack scatters like pups!", "I break your leash and your pride!"},
         ["Archmage Arugal"] = {"Arugal, your curses unravel before my roar!",
                                "Your creations turn on you, just as I turn your bones to dust!"},
-        ["Lord Godfrey"] = {"Godfrey, your rebellion dies with you!", "Your bullets won’t stop my charge!"},
+        ["Lord Godfrey"] = {"Godfrey, your rebellion dies with you!", "Your bullets won't stop my charge!"},
         ["__event__"] = {"Shadowfang howls with the agony of its masters!",
                          "Undead and worgen alike flee from the sound of the Horde!"}
     },
@@ -527,7 +876,7 @@ BattleYells = {
                          "Stones crack and roots recoil from our advance!"}
     },
 
-    ["Temple of Atal'Hakkar"] = {
+    ["The Temple of Atal'Hakkar"] = {
         ["Atal'alarion"] = {"Stone guardian, you will not block our path!", "Atal'alarion, crumble to dust!"},
         ["Dreamscythe"] = {"Dreamscythe, your illusions are broken!", "Your dreams end in nightmare!"},
         ["Weaver"] = {"Weaver, your time is unspun!", "Your threads fray under my strike!"},
@@ -570,7 +919,7 @@ BattleYells = {
                                 "I bring an end to your battles and your breath!"},
         ["Mother Smolderweb"] = {"Smolderweb, your brood burns in their webs!", "Your fangs find no purchase on steel!"},
         ["Urok Doomhowl"] = {"Doomhowl, I howl louder — and deadlier!", "Urok, your arena belongs to me now!"},
-        ["Quartermaster Zigris"] = {"Zigris, your supplies won’t save your skin!",
+        ["Quartermaster Zigris"] = {"Zigris, your supplies won't save your skin!",
                                     "The only thing you're delivering is your defeat!"},
         ["__event__"] = {"The halls of Lower Spire echo with the fall of pretenders!",
                          "From stone to steel, we carve a path through Blackrock treachery!",
@@ -584,7 +933,7 @@ BattleYells = {
                                    "Your flight ends with a scream in the smoke!"},
         ["Gyth"] = {"Gyth, no winged beast escapes my fury!", "Fall, dragon, and take your master with you!"},
         ["Jed Runewatcher"] = {"Runes won't save you from raw might!", "Jed, your watch ends forever!"},
-        ["The Beast"] = {"Beast? You’re just another pelt for my trophy wall!",
+        ["The Beast"] = {"Beast? You're just another pelt for my trophy wall!",
                          "Your roars are silenced beneath my steel!"},
         ["__event__"] = {"Upper Spire burns with the fury of our ascent!",
                          "The Black Dragonflight trembles as we breach the summit!",
@@ -682,7 +1031,7 @@ BattleYells = {
     },
     ["Stranglethorn Vale"] = {
         -- Bloodsail Pirates
-        ["Bloodsail Raider"] = {"Your pirate days are over!", "Bloodsail, I’ll send you to the deep!"},
+        ["Bloodsail Raider"] = {"Your pirate days are over!", "Bloodsail, I'll send you to the deep!"},
         ["Bloodsail Swashbuckler"] = {"Steel sings louder than swagger!", "Your blades fall silent now!"},
         ["Bloodsail Deckhand"] = {"Deckhand, swab the afterlife!", "You'll swab decks in hell!"},
         ["Bloodsail Sea Dog"] = {"Sea Dog, your voyage ends here!", "I sink your bark and your spirit!"},
@@ -699,7 +1048,7 @@ BattleYells = {
         ["Venture Co. Buccaneer"] = {"Buccaneer, your crew sinks now!", "Sea-faring thieves drown!"},
         ["Venture Co. Miner"] = {"Miner, your pick finds no ore but defeat!", "Your veins run dry with dread!"},
 
-        -- Kurzen’s Camp
+        -- Kurzen's Camp
         ["Kurzen Commando"] = {"Commando, your rebellion bleeds out!", "Face defeat in the wild!"},
         ["Kurzen Jungle Fighter"] = {"Jungle's mine, not yours!", "Kurzen falls today!"},
         ["Kurzen Medicine Man"] = {"Your brew burns only you!", "No potion saves your fate!"},
@@ -779,7 +1128,7 @@ BattleYells = {
                                  "Frostwolf strength breaks all resistance!"},
 
         -- Stormpike Lieutenants
-        ["Lieutenant Largent"] = {"Largent, your rank won’t shield you from defeat!",
+        ["Lieutenant Largent"] = {"Largent, your rank won't shield you from defeat!",
                                   "Another lieutenant ready to fall!"},
         ["Lieutenant Grummus"] = {"Grummus, brace yourself — the Horde has come!",
                                   "Steel breaks, just like your defense!"},
@@ -792,7 +1141,7 @@ BattleYells = {
 
         -- Stormpike Commanders
         ["Commander Duffy"] = {"Duffy, commander of cowards!", "Even your orders can't save you now!"},
-        ["Commander Karl Philips"] = {"Philips, your command ends in surrender!", "You’ll salute defeat today!"},
+        ["Commander Karl Philips"] = {"Philips, your command ends in surrender!", "You'll salute defeat today!"},
         ["Commander Louis Philips"] = {"Louis, there's no escape in these mountains!",
                                        "Feel the avalanche of the Horde!"},
 
@@ -804,10 +1153,92 @@ BattleYells = {
         ["Commander Karl"] = {"Karl, lead us to glorious conquest!", "Your strength inspires the Frostwolf!"},
 
         -- Zone Event
-        ["__event__"] = {"The snows of Alterac run red with the fury of battle!",
-                         "Every peak echoes our cry — victory or death!",
-                         "Axes clash and banners fall — the valley will remember us!",
-                         "The storm of war howls through Alterac, and we are its voice!"}
+        ["__event__"] = {
+            -- The absolute very best random jokes in the history of mankind
+            "Why don't scientists trust atoms? Because they make up everything.",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+            "Why don't eggs tell jokes? They'd crack each other up.",
+            "I'm reading a book on anti-gravity. It's impossible to put down!",
+            "Why did the scarecrow win an award? Because he was outstanding in his field.",
+            "I used to hate facial hair, but then it grew on me.",
+            "Why don't skeletons fight each other? They don't have the guts.",
+            "I only know 25 letters of the alphabet. I don't know y.",
+            "Why can't your nose be 12 inches long? Because then it'd be a foot.",
+            "I used to play piano by ear, but now I use my hands.",
+            "Did you hear about the kidnapping at school? It's fine, he woke up.",
+            "I would tell you a joke about an elevator, but it's an uplifting experience.",
+            "I used to be a baker, but I couldn't make enough dough.",
+            "I told my computer I needed a break, and now it won't stop sending me cookies.",
+            "I used to be a banker, but I lost interest.",
+            "I tried to catch fog yesterday, but I mist.",
+            "Why don't programmers like nature? It has too many bugs.",
+            "I told my wife she should embrace her mistakes. She gave me a hug.",
+            "Want to hear a construction joke? Sorry, I'm still working on it.",
+            "Why did the math book look so sad? Because it had too many problems.",
+            "I'm on a seafood diet. I see food and I eat it.",
+            "Why don't oysters donate to charity? Because they're shellfish.",
+            "Why did the coffee file a police report? It got mugged.",
+            "Why did the bicycle fall over? Because it was two tired.",
+            "What do you call a fake noodle? An impasta.",
+            "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+            "What do you call a bear with no teeth? A gummy bear.",
+            "What do you call a sleeping bull? A bulldozer.",
+            "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+            "What do you call a factory that makes okay products? A satisfactory.",
+            "What do you call a nosy pepper? Jalapeño business.",
+            "Why don't we ever tell secrets on a farm? Because the potatoes have eyes and the corn has ears.",
+            "What do you call a cow with no legs? Ground beef.",
+            "Why did the tomato turn red? Because it saw the salad dressing.",
+            "What do you call a belt made of watches? A waist of time.",
+            "Why don't melons get married? Because they cantaloupe.",
+            "What do you call a snowman with a suntan? A puddle.",
+            "Why did the chicken cross the playground? To get to the other slide.",
+            "What do you call a bear in the rain? A drizzly bear.",
+            "Why did the cookie go to the doctor? Because it felt crummy.",
+            "What do you call a fish with no eyes? Fsh.",
+            "Why don't scientists trust stairs? Because they're always up to something.",
+            "What do you call a lazy kangaroo? A pouch potato.",
+            "Why did the picture go to jail? Because it was framed.",
+            "What do you call a cow that plays an instrument? A moo-sician.",
+            "What do you call a sleeping dinosaur? A dino-snore.",
+            "Why did the chicken go to the séance? To get to the other side.",
+            "What do you call a boomerang that doesn't come back? A stick.",
+            "What do you call a cow that can't make milk? An udder failure.",
+            "Why don't seagulls fly over the bay? Because then they'd be bagels.",
+            "What do you call a magic dog? A labracadabrador.",
+            "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+            "What do you call a pile of cats? A meowtain.",
+            "Why don't skeletons fight each other? They don't have the guts.",
+            "What do you call a bear with no teeth? A gummy bear.",
+            "Why did the scarecrow win an award? Because he was outstanding in his field.",
+            "What do you call a fake noodle? An impasta.",
+            "Why did the bicycle fall over? Because it was two tired.",
+            "What do you call a sleeping bull? A bulldozer.",
+            "Why don't programmers like nature? It has too many bugs.",
+            "I'm reading a book on anti-gravity. It's impossible to put down!",
+            "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+            "What do you call a factory that makes okay products? A satisfactory.",
+            "What do you call a nosy pepper? Jalapeño business.",
+            "Why don't eggs tell jokes? They'd crack each other up.",
+            "I used to hate facial hair, but then it grew on me.",
+            "I only know 25 letters of the alphabet. I don't know y.",
+            "Why can't your nose be 12 inches long? Because then it'd be a foot.",
+            "I used to play piano by ear, but now I use my hands.",
+            "Did you hear about the kidnapping at school? It's fine, he woke up.",
+            "I would tell you a joke about an elevator, but it's an uplifting experience.",
+            "I used to be a baker, but I couldn't make enough dough.",
+            "I told my computer I needed a break, and now it won't stop sending me cookies.",
+            "I used to be a banker, but I lost interest.",
+            "I tried to catch fog yesterday, but I mist.",
+            "Why did the math book look so sad? Because it had too many problems.",
+            "I'm on a seafood diet. I see food and I eat it.",
+            "Why don't oysters donate to charity? Because they're shellfish.",
+            "Why did the coffee file a police report? It got mugged.",
+            "I told my wife she should embrace her mistakes. She gave me a hug.",
+            "Want to hear a construction joke? Sorry, I'm still working on it.",
+            "Why did the golfer bring two pairs of pants? In case he got a hole in one.",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised."
+        }        
     },
     ["Arathi Basin"] = {
         ["Defiler Grunt"] = {"Grunt, seize the resource nodes!", "Defilers claim this land in blood!"},
@@ -832,19 +1263,19 @@ BattleYells = {
         ["__event__"] = {"The raceway roars with our engines!", "Mirage Raceway remembers the Horde's speed!"}
     },
     ["Tanaris"] = {
-        ["Southsea Pirate"] = {"I'll sink your dreams with my blade!", "Your ship’s gone — and you're next!"},
+        ["Southsea Pirate"] = {"I'll sink your dreams with my blade!", "Your ship's gone — and you're next!"},
         ["Southsea Swashbuckler"] = {"You call that swordplay?", "Swashbuckle this, landlubber!"},
         ["Southsea Brigand"] = {"The only loot here is your defeat!", "Brigandry ends with my axe!"},
         ["Southsea Cannoneer"] = {"Boom this, powder monkey!", "Your fuse fizzles before my shout!"},
         ["Wastewander Rogue"] = {"The desert hides you, but I find you!", "Sand won't save you from steel!"},
         ["Wastewander Bandit"] = {"You're no match for a Horde warrior!", "I'll bury you in the sands!"},
         ["Wastewander Thief"] = {"You steal life? I take yours!", "Thief, meet justice — Horde style!"},
-        ["Wastewander Shadow Mage"] = {"Your shadows cower before me!", "Magic won’t save you now, coward!"},
-        ["Wastewander Assassin"] = {"You sneak, I strike!", "I’ll end your desert ambushes!"},
+        ["Wastewander Shadow Mage"] = {"Your shadows cower before me!", "Magic won't save you now, coward!"},
+        ["Wastewander Assassin"] = {"You sneak, I strike!", "I'll end your desert ambushes!"},
         ["Hired Assassin"] = {"Your contract ends in blood!", "Who's paying for your failure?"},
-        ["Gadgetzan Bruiser"] = {"Tinkertown’s guards can’t stop me!", "I’ll flatten that goblin pride!"},
+        ["Gadgetzan Bruiser"] = {"Tinkertown's guards can't stop me!", "I'll flatten that goblin pride!"},
         ["Zul'Farrak Zombie"] = {"Back to the grave, sandwalker!", "Even in undeath, you fall to the Horde!"},
-        ["Zul'Farrak Troll"] = {"Troll blood runs hot — but not for long!", "Zul’Farrak screams with your defeat!"},
+        ["Zul'Farrak Troll"] = {"Troll blood runs hot — but not for long!", "Zul'Farrak screams with your defeat!"},
         ["__event__"] = {"Tanaris trembles beneath our warcries!", "The sandstorms carry our voice — and our fury!"}
     }
 }
